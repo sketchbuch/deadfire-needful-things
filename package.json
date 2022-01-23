@@ -1,0 +1,54 @@
+{
+  "name": "deadfire_needful_things",
+  "description": "A Mod for Pillars of Eternity 2: Deadfire that adds many existing unique items, weapons, and armour to vendors in Neketaka for you to buy early and use.",
+  "displayName": "Package Installer",
+  "version": "1.0.0",
+  "author": {
+    "name": "sketchbuch"
+  },
+  "bugs": {
+    "url": "https://github.com/sketchbuch/deadfire_needful_things/issues"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "./src/main.ts",
+  "publisher": "sketchbuch",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sketchbuch/deadfire_needful_things"
+  },
+  "scripts": {
+    "generate": "tsc -p tsconfig.json",
+    "generate:watch": "tsc -w -p tsconfig.json",
+    "lint:prettier": "prettier --write --config ./.prettierrc.js './{src, resources/js}/**/*.{js,ts}'",
+    "lint:ts": "eslint ./src --ext ts --fix",
+    "lint": "yarn lint:ts && yarn lint:prettier"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint": "^8.7.0",
+    "jsonminify": "^0.4.2",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-push": "lint-staged",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "{src, resources/js}/**/*.{js,ts}": [
+      "yarn lint:ts",
+      "yarn lint:prettier",
+      "git add"
+    ],
+    "resources/css/**/*.css": [
+      "yarn lint:css",
+      "yarn lint:prettier",
+      "git add"
+    ]
+  }
+}

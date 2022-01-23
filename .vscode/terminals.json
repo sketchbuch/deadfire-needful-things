@@ -1,0 +1,22 @@
+{
+  "autorun": false,
+  "terminals": [
+    {
+      "name": "TSC",
+      "description": "A terminal for the mod Needful Things",
+      "focus": true,
+      "commands": [
+        "nvm use"
+      ],
+      "command": "nvm use"
+    },
+    {
+      "name": "Compile",
+      "focus": true,
+      "commands": [
+        "nvm use",
+        "yarn generate:watch"
+      ]
+    }
+  ]
+}

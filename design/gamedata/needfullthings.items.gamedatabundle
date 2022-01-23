@@ -13,22 +13,9 @@
           },
           "OutputChance": 1,
           "OutputMode": "All",
-          "Items": [
-            {
-              "Conditional": {
-                "Operator": 0,
-                "Components": []
-              },
-              "OutputChance": 1,
-              "MinCount": 1,
-              "MaxCount": 1,
-              "Weight": 1,
-              "ItemID": "509c05d9-6ce5-4ef8-aa85-06e875e71410",
-              "LootListID": "00000000-0000-0000-0000-000000000000",
-              "LockedVisible": "false"
-            }
-          ]
+          "Items": []
         }
       ]
     }
+  ]
 }
