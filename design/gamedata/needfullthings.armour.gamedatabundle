@@ -13,8 +13,347 @@
           },
           "OutputChance": 1,
           "OutputMode": "All",
-          "Items": []
+          "Items": [
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "54b1899b-13d0-4e2e-a1f6-35bada15554a",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "d83ed9a5-c1bc-4811-a642-6d23b3a7bf66",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "41289b2a-ab03-4a67-aa80-0b66e5c41401",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "3d2e4c65-5bb4-4fe8-ae0d-16b0cf8e2f37",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "5e2f91d6-9703-4ed9-8d9c-109a71780b79",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "b2511451-c99a-441f-8023-bb7794d99bc8",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "109b558f-c157-44e4-93eb-0b76a3b8cd2d",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "ab79d3fb-829b-4f5b-9b1e-2ff80ea45569",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "e2351217-7b8e-4eb9-9034-9ad93b69f296",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "8cc0e17a-c41f-4c5b-af88-2be826d706d8",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "14081a05-28a9-4db4-b0b2-f5ff1de72ad1",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "d8c68d77-f383-4b4a-9310-29421bd0ab2a",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "1a2a2118-230c-4538-936a-0f8f43daeb83",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "79b49406-5d87-45a0-a39c-2c4c3f7772d6",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "59195a29-8314-491f-8875-72386e0d96f6",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "b0e97410-fcb6-49db-9767-ee32a4bb4760",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "c8ac4497-f967-4de9-9068-129786ba0514",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "ee2ab288-ace3-41bd-a57f-4ff09146dc05",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "39a6999c-27a4-4079-b272-7cf7411ccb8c",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "7ebc2815-c456-44ad-85ff-e41806efaca1",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "d5daec45-6d8d-4e6e-9d77-357ef1f77df4",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "b4333ba9-5483-4cf4-8a8a-fcdeaf5093d8",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "2630c25a-9efa-420e-8d16-d0fc9b190aa2",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "5965a40a-5280-4446-a694-4de810f40865",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "b6373e31-931a-4c06-8c3e-b2c357dbc14e",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            },
+            {
+              "Conditional": {
+                "Operator": 0,
+                "Components": []
+              },
+              "OutputChance": 1,
+              "MinCount": 1,
+              "MaxCount": 1,
+              "Weight": 1,
+              "ItemID": "509c05d9-6ce5-4ef8-aa85-06e875e71410",
+              "LootListID": "00000000-0000-0000-0000-000000000000",
+              "LockedVisible": "false"
+            }
+          ]
         }
       ]
     }
-}
+  }
