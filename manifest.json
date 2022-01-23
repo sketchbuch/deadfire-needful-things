@@ -1,0 +1,14 @@
+{
+  "Title": {
+    "en": "Needfull Things"
+  },
+  "Description": {
+    "en": "A new merchant stall opens in the small town of Port Maje."
+  },
+  "Author": "Sketchbuch",
+  "ModVersion": "1.0",
+  "supportedGameVersion": {
+    "Min": "5.0.0",
+    "Max": "5.0.0"
+  }
+}
