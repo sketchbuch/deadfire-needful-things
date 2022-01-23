@@ -1,4 +1,5 @@
 import * as fs from 'fs'
+import * as path from 'path'
 import { armour } from './data/armour'
 import { GameData, GameDataBundle, gameDataBundle, gameItem } from './data/gamedatabundle'
 import { items } from './data/items'
@@ -84,7 +85,10 @@ const getMerchantItems = (gameData: GameData) => {
 }
 
 const writeGameDataBundle = (bundle: GameDataBundle, type: BundleType) => {
-  const basePath = process.env.NODE_ENV === 'test' ? 'build' : 'dist/design/gamedata'
+  const basePath =
+    process.env.NODE_ENV === 'test'
+      ? 'build'
+      : path.join('dist', 'Needful Things', 'design', 'gamedata')
   fs.writeFileSync(`${basePath}/needfullthings.${type}.gamedatabundle`, JSON.stringify(bundle))
 }
 
