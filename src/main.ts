@@ -84,7 +84,8 @@ const getMerchantItems = (gameData: GameData) => {
 }
 
 const writeGameDataBundle = (bundle: GameDataBundle, type: BundleType) => {
-  fs.writeFileSync(`dist/needfullthings.${type}.gamedatabundle`, JSON.stringify(bundle))
+  const basePath = process.env.NODE_ENV === 'test' ? 'build' : 'dist/design/gamedata'
+  fs.writeFileSync(`${basePath}/needfullthings.${type}.gamedatabundle`, JSON.stringify(bundle))
 }
 
 generateArmour()

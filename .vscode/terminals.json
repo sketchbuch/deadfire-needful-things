@@ -7,15 +7,14 @@
       "focus": true,
       "commands": [
         "nvm use"
-      ],
-      "command": "nvm use"
+      ]
     },
     {
       "name": "Compile",
       "focus": true,
       "commands": [
         "nvm use",
-        "yarn generate:watch"
+        "yarn compile:watch"
       ]
     }
   ]

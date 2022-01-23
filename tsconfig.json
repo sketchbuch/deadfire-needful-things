@@ -12,13 +12,16 @@
     "module": "CommonJS",
     "moduleResolution": "node",
     "noEmit": false,
-    "outDir": "dist",
+    "outDir": "./build",
     "resolveJsonModule": true,
+    "rootDir": "./src",
     "skipLibCheck": true,
     "strict": false,
     "target": "ES6",
   },
   "exclude": [
+    "build",
+    "commitlint.config.js",
     "dist",
     "node_modules"
   ]
