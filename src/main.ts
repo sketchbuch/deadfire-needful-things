@@ -12,8 +12,9 @@ type BundleType = 'armour' | 'items' | 'shields' | 'weapons'
 
 const { NODE_ENV, npm_package_version: version } = process.env
 const isProduction = NODE_ENV === 'production'
+const outputDir = 'dist'
 const bundleOutputDir = isProduction
-  ? path.join('dist', 'Needful Things', 'design', 'gamedata')
+  ? path.join(outputDir, 'Needful Things', 'design', 'gamedata')
   : 'build'
 
 const generateArmour = () => {
@@ -94,9 +95,9 @@ const getMerchantItems = (gameData: GameData) => {
 
 const packageExtension = () => {
   zipper.sync
-    .zip('dist')
+    .zip(outputDir)
     .compress()
-    .save(path.join('dist', `needful_things_v${version}.zip`))
+    .save(path.join(outputDir, `needful_things_v${version}.zip`))
 }
 
 const saveGameDataBundle = (bundle: GameDataBundle, type: BundleType) => {
