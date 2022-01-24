@@ -27,7 +27,7 @@
     "lint:prettier": "prettier --write --config ./.prettierrc.js './{src, resources/js}/**/*.{js,ts}'",
     "lint:ts": "eslint ./src --ext ts --fix",
     "package": "yarn clean && yarn compile && yarn static-copy && yarn production",
-    "package:test": "yarn clean && yarn lint && yarn compile && yarn dev",
+    "package:test": "yarn clean && yarn lint && yarn compile && yarn validate && yarn dev",
     "production": "cross-env NODE_ENV=production node build/main.js",
     "static-copy": "shx cp -R ./static ./dist",
     "test": "jest",
