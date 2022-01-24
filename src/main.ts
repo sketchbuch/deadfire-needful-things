@@ -8,10 +8,6 @@ import { items } from './data/items'
 import { shields } from './data/shields'
 import { weapons } from './data/weapons'
 
-type BundleType = 'armour' | 'items' | 'shields' | 'weapons'
-
-type Bundles = Bundle[]
-
 interface Bundle {
   data: GameData
   label: String // To help identify the Merchant, not included in bundle output
@@ -19,6 +15,10 @@ interface Bundle {
   merchantUuid: Uuid
   type: BundleType
 }
+
+type BundleType = 'armour' | 'items' | 'shields' | 'weapons'
+
+type Bundles = Bundle[]
 
 const { NODE_ENV, npm_package_version: version } = process.env
 const isProduction = NODE_ENV === 'production'
