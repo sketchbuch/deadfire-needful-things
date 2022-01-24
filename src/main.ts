@@ -18,8 +18,8 @@ const bundleOutputDir = isProduction
   : 'build'
 
 const generateArmour = () => {
-  const merchant = 'Store_09_PM_Tavern_Regen'
-  const merchantUuid = '2b57b471-18fa-471c-b00b-098c0c6831fa'
+  const merchant = 'Store_03_Armorer' // Wanika
+  const merchantUuid = '7f592fb9-e4c2-4091-a68c-3631e303640f'
 
   if (armour.length) {
     const bundle = {
@@ -34,8 +34,8 @@ const generateArmour = () => {
 }
 
 const generateItems = () => {
-  const merchant = 'Store_09_PM_Tavern_Regen'
-  const merchantUuid = '2b57b471-18fa-471c-b00b-098c0c6831fa'
+  const merchant = 'Store_07_Animancers' // Tiabo
+  const merchantUuid = 'e886c4c5-5eac-4917-9f8d-12bd6e6e11e7'
 
   if (items.length) {
     const bundle = {
@@ -50,8 +50,8 @@ const generateItems = () => {
 }
 
 const generateShields = () => {
-  const merchant = 'Store_09_PM_Tavern_Regen'
-  const merchantUuid = '2b57b471-18fa-471c-b00b-098c0c6831fa'
+  const merchant = 'Store_08_Orlan_Peddler'
+  const merchantUuid = '1eea934a-679d-43d8-b24a-6de7ca23371e'
 
   if (shields.length) {
     const bundle = {
@@ -66,8 +66,8 @@ const generateShields = () => {
 }
 
 const generateWeapons = () => {
-  const merchant = 'Store_09_PM_Tavern_Regen'
-  const merchantUuid = '2b57b471-18fa-471c-b00b-098c0c6831fa'
+  const merchant = 'Store_05_AD_Marihi'
+  const merchantUuid = '7f072d26-8d4a-4033-bddc-ecb4128d2e97'
 
   if (weapons.length) {
     const bundle = {
@@ -101,10 +101,10 @@ const packageExtension = () => {
 }
 
 const saveGameDataBundle = (bundle: GameDataBundle, type: BundleType) => {
-  fs.writeFileSync(
-    path.join(bundleOutputDir, `needfullthings.${type}.gamedatabundle`),
-    JSON.stringify(bundle)
-  )
+  const fileContent = isProduction ? JSON.stringify(bundle) : JSON.stringify(bundle, null, 2)
+  const filePath = path.join(bundleOutputDir, `needfullthings_${type}.gamedatabundle`)
+
+  fs.writeFileSync(filePath, fileContent)
 }
 
 generateArmour()

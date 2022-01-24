@@ -19,6 +19,9 @@ const mediumShields: GameData = [
     label: "Nerian's Ward",
     uuid: '784b6ce3-f19d-4f98-9d94-76808aee54a7',
   },
+]
+
+const largeShields: GameData = [
   {
     label: "Akola's Apex Ward",
     uuid: '8ea39d80-89ca-4c6b-a46e-e516b0c15757',
@@ -40,6 +43,5 @@ const mediumShields: GameData = [
     uuid: '1eca5bb1-d249-4bd5-b541-12d298562a22',
   },
 ]
-const largeShields: GameData = []
 
 export const shields = [...smallShields, ...mediumShields, ...largeShields]

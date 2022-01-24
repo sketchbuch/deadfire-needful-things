@@ -11,15 +11,15 @@ const lightArmour: GameData = [
   },
   {
     label: 'Humility',
-    uuid: '41289b2a- ab03 - 4a67- aa80 - 0b66e5c41401',
+    uuid: '41289b2a-ab03-4a67-aa80-0b66e5c41401',
   },
   {
     label: 'Robes of the Weyc',
-    uuid: '3d2e4c65- 5bb4- 4fe8 - ae0d - 16b0cf8e2f37',
+    uuid: '3d2e4c65-5bb4-4fe8-ae0d-16b0cf8e2f37',
   },
   {
     label: 'Spider Silk Robe',
-    uuid: '5e2f91d6- 9703 - 4ed9 - 8d9c - 109a71780b79',
+    uuid: '5e2f91d6-9703-4ed9-8d9c-109a71780b79',
   },
   {
     label: "Swift Hunter's Garb",
@@ -31,11 +31,11 @@ const lightArmour: GameData = [
   },
   {
     label: 'Fleshmender',
-    uuid: 'ab79d3fb - 829b- 4f5b- 9b1e- 2ff80ea45569',
+    uuid: 'ab79d3fb-829b-4f5b-9b1e-2ff80ea45569',
   },
   {
     label: 'Gipon Prudensco',
-    uuid: 'e2351217 - 7b8e- 4eb9 - 9034 - 9ad93b69f296',
+    uuid: 'e2351217-7b8e-4eb9-9034-9ad93b69f296',
   },
 ]
 
@@ -50,11 +50,11 @@ const mediumArmour: GameData = [
   },
   {
     label: 'Desgraza Breastplate',
-    uuid: 'd8c68d77 - f383 - 4b4a- 9310 - 29421bd0ab2a',
+    uuid: 'd8c68d77-f383-4b4a-9310-29421bd0ab2a',
   },
   {
     label: 'Devil of Caroc Breastplate',
-    uuid: '1a2a2118- 230c- 4538 - 936a- 0f8f43daeb83',
+    uuid: '1a2a2118-230c-4538-936a-0f8f43daeb83',
   },
   {
     label: "Furrante's Breastplate",
@@ -62,7 +62,7 @@ const mediumArmour: GameData = [
   },
   {
     label: 'Honor Guard Breastplate',
-    uuid: '59195a29- 8314 - 491f- 8875 - 72386e0d96f6',
+    uuid: '59195a29-8314-491f-8875-72386e0d96f6',
   },
   {
     label: "Magnera's Chain",

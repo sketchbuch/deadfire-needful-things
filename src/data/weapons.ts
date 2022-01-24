@@ -423,6 +423,7 @@ export const weapons = [
   ...rods,
   ...sabres,
   ...scepters,
+  ...spears,
   ...stilettos,
   ...swords,
   ...wands,
