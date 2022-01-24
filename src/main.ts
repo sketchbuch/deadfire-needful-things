@@ -28,7 +28,7 @@ const generateArmour = () => {
     bundle.GameDataObjects[0].DebugName = merchant
     bundle.GameDataObjects[0].ID = merchantUuid
 
-    writeGameDataBundle(bundle, 'armour')
+    saveGameDataBundle(bundle, 'armour')
   }
 }
 
@@ -44,7 +44,7 @@ const generateItems = () => {
     bundle.GameDataObjects[0].DebugName = merchant
     bundle.GameDataObjects[0].ID = merchantUuid
 
-    writeGameDataBundle(bundle, 'items')
+    saveGameDataBundle(bundle, 'items')
   }
 }
 
@@ -60,7 +60,7 @@ const generateShields = () => {
     bundle.GameDataObjects[0].DebugName = merchant
     bundle.GameDataObjects[0].ID = merchantUuid
 
-    writeGameDataBundle(bundle, 'shields')
+    saveGameDataBundle(bundle, 'shields')
   }
 }
 
@@ -76,7 +76,7 @@ const generateWeapons = () => {
     bundle.GameDataObjects[0].DebugName = merchant
     bundle.GameDataObjects[0].ID = merchantUuid
 
-    writeGameDataBundle(bundle, 'weapons')
+    saveGameDataBundle(bundle, 'weapons')
   }
 }
 
@@ -99,7 +99,7 @@ const packageExtension = () => {
     .save(path.join('dist', `needful_things_v${version}.zip`))
 }
 
-const writeGameDataBundle = (bundle: GameDataBundle, type: BundleType) => {
+const saveGameDataBundle = (bundle: GameDataBundle, type: BundleType) => {
   fs.writeFileSync(
     path.join(bundleOutputDir, `needfullthings.${type}.gamedatabundle`),
     JSON.stringify(bundle)
