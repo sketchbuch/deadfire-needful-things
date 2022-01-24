@@ -1,4 +1,4 @@
-import { GameData } from './gamedatabundle'
+import type { GameData } from './gamedatabundle'
 
 const arbalests: GameData = [
   {

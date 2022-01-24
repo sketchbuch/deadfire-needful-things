@@ -9,16 +9,11 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "@typescript-eslint/semi": "warn",
+        "@typescript-eslint/semi": "off",
         "curly": "warn",
         "eqeqeq": "warn",
         "no-throw-literal": "warn",
-        "semi": "off",
-        "object-curly-newline": ["error", {
-            "ObjectExpression": "always",
-            "ObjectPattern": { "multiline": true },
-            "ImportDeclaration": "never",
-            "ExportDeclaration": { "multiline": true, "minProperties": 1 }
-        }]
+        "no-unexpected-multiline": "off",
+        "semi": "off"
     }
 }

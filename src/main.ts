@@ -1,12 +1,15 @@
 import * as fs from 'fs'
 import * as path from 'path'
 import { armour } from './data/armour'
-import { GameData, GameDataBundle, gameDataBundle, gameItem } from './data/gamedatabundle'
+import type { GameData, GameDataBundle } from './data/gamedatabundle'
+import { gameDataBundle, gameItem } from './data/gamedatabundle'
 import { items } from './data/items'
 import { shields } from './data/shields'
 import { weapons } from './data/weapons'
 
 type BundleType = 'armour' | 'items' | 'shields' | 'weapons'
+
+const isProduction = process.env.NODE_ENV === 'production'
 
 const generateArmour = () => {
   const merchant = 'Store_09_PM_Tavern_Regen'
@@ -84,15 +87,25 @@ const getMerchantItems = (gameData: GameData) => {
   })
 }
 
+const packageExtension = () => {
+  console.log('### packageExtension()')
+}
+
 const writeGameDataBundle = (bundle: GameDataBundle, type: BundleType) => {
-  const basePath =
-    process.env.NODE_ENV === 'test'
-      ? 'build'
-      : path.join('dist', 'Needful Things', 'design', 'gamedata')
-  fs.writeFileSync(`${basePath}/needfullthings.${type}.gamedatabundle`, JSON.stringify(bundle))
+  const basePath = isProduction
+    ? path.join('dist', 'Needful Things', 'design', 'gamedata')
+    : 'build'
+  fs.writeFileSync(
+    path.join(basePath, `needfullthings.${type}.gamedatabundle`),
+    JSON.stringify(bundle)
+  )
 }
 
 generateArmour()
 generateItems()
 generateShields()
 generateWeapons()
+
+if (isProduction) {
+  packageExtension()
+}
