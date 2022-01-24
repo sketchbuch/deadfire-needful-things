@@ -22,7 +22,7 @@ const { NODE_ENV, npm_package_version: version } = process.env
 const isProduction = NODE_ENV === 'production'
 const outputDir = 'dist'
 
-const bundleList: Bundles = [
+export const bundleList: Bundles = [
   {
     data: armour,
     label: "Wanika (Queen's Berth)",

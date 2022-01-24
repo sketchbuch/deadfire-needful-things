@@ -8,7 +8,7 @@ import { armour } from '../data/armour'
 import { items } from '../data/items'
 import { shields } from '../data/shields'
 import { weapons } from '../data/weapons'
-import { BundleType } from '../main'
+import { bundleList, BundleType } from '../main'
 import { GameData } from './gamedatabundle'
 
 // https://gist.github.com/bugventure/f71337e3927c34132b9a
@@ -27,6 +27,12 @@ try {
   validateUuids(items, 'items')
   validateUuids(shields, 'shields')
   validateUuids(weapons, 'weapons')
+
+  bundleList.forEach((i) => {
+    if (!uuidV4Regex.test(i.merchantUuid)) {
+      throw new Error(`bundleList data contains an invalid UUID for "${i.label}"`)
+    }
+  })
 
   console.info('Validation of UUIDs was successful!')
 } catch (error) {
