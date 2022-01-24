@@ -400,7 +400,7 @@ const warHammers: GameData = [
   },
 ]
 
-export const weapons = [
+export const weapons: GameData = [
   ...arbalests,
   ...arquebuses,
   ...battleAxes,

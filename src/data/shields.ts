@@ -44,4 +44,4 @@ const largeShields: GameData = [
   },
 ]
 
-export const shields = [...smallShields, ...mediumShields, ...largeShields]
+export const shields: GameData = [...smallShields, ...mediumShields, ...largeShields]

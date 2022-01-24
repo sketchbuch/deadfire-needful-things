@@ -113,4 +113,4 @@ const heavyArmour: GameData = [
   },
 ]
 
-export const armour = [...lightArmour, ...mediumArmour, ...heavyArmour]
+export const armour: GameData = [...lightArmour, ...mediumArmour, ...heavyArmour]

@@ -349,4 +349,12 @@ const rings: GameData = [
   },
 ]
 
-export const items = [...amulets, ...belts, ...boots, ...cloaks, ...gloves, ...headgear, ...rings]
+export const items: GameData = [
+  ...amulets,
+  ...belts,
+  ...boots,
+  ...cloaks,
+  ...gloves,
+  ...headgear,
+  ...rings,
+]

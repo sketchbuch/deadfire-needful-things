@@ -2,13 +2,23 @@ import * as fs from 'fs'
 import * as path from 'path'
 import zipper from 'zip-local'
 import { armour } from './data/armour'
-import type { GameData, GameDataBundle } from './data/gamedatabundle'
+import type { GameData, GameDataBundle, Uuid } from './data/gamedatabundle'
 import { gameDataBundle, gameItem } from './data/gamedatabundle'
 import { items } from './data/items'
 import { shields } from './data/shields'
 import { weapons } from './data/weapons'
 
 type BundleType = 'armour' | 'items' | 'shields' | 'weapons'
+
+type Bundles = Bundle[]
+
+interface Bundle {
+  data: GameData
+  label: String // To help identify the Merchant, not included in bundle output
+  merchant: String
+  merchantUuid: Uuid
+  type: BundleType
+}
 
 const { NODE_ENV, npm_package_version: version } = process.env
 const isProduction = NODE_ENV === 'production'
@@ -17,68 +27,52 @@ const bundleOutputDir = isProduction
   ? path.join(outputDir, 'Needful Things', 'design', 'gamedata')
   : 'build'
 
-const generateArmour = () => {
-  const merchant = 'Store_03_Armorer' // Wanika
-  const merchantUuid = '7f592fb9-e4c2-4091-a68c-3631e303640f'
+const bundles: Bundles = [
+  {
+    data: armour,
+    label: "Wanika (Queen's Berth)",
+    merchant: 'Store_03_Armorer',
+    merchantUuid: '7f592fb9-e4c2-4091-a68c-3631e303640f',
+    type: 'armour',
+  },
+  {
+    data: items,
+    label: 'Tiabo (Sacred Stair)',
+    merchant: 'Store_07_Animancers',
+    merchantUuid: 'e886c4c5-5eac-4917-9f8d-12bd6e6e11e7',
+    type: 'items',
+  },
+  {
+    data: shields,
+    label: 'Orlan Peddler (Brass Citadel)',
+    merchant: 'Store_08_Orlan_Peddler',
+    merchantUuid: '1eea934a-679d-43d8-b24a-6de7ca23371e',
+    type: 'shields',
+  },
+  {
+    data: weapons,
+    label: "Marihi (Periki's Overlook)",
+    merchant: 'Store_05_AD_Marihi',
+    merchantUuid: '7f072d26-8d4a-4033-bddc-ecb4128d2e97',
+    type: 'weapons',
+  },
+]
 
-  if (armour.length) {
-    const bundle = {
-      ...gameDataBundle,
+const generateBundles = () => {
+  bundles.forEach((bundle) => {
+    const { data, merchant, merchantUuid, type } = bundle
+
+    if (data.length) {
+      const bundle = {
+        ...gameDataBundle,
+      }
+      bundle.GameDataObjects[0].Components[0].Items = getMerchantItems(data)
+      bundle.GameDataObjects[0].DebugName = merchant
+      bundle.GameDataObjects[0].ID = merchantUuid
+
+      saveGameDataBundle(bundle, type)
     }
-    bundle.GameDataObjects[0].Components[0].Items = getMerchantItems(armour)
-    bundle.GameDataObjects[0].DebugName = merchant
-    bundle.GameDataObjects[0].ID = merchantUuid
-
-    saveGameDataBundle(bundle, 'armour')
-  }
-}
-
-const generateItems = () => {
-  const merchant = 'Store_07_Animancers' // Tiabo
-  const merchantUuid = 'e886c4c5-5eac-4917-9f8d-12bd6e6e11e7'
-
-  if (items.length) {
-    const bundle = {
-      ...gameDataBundle,
-    }
-    bundle.GameDataObjects[0].Components[0].Items = getMerchantItems(items)
-    bundle.GameDataObjects[0].DebugName = merchant
-    bundle.GameDataObjects[0].ID = merchantUuid
-
-    saveGameDataBundle(bundle, 'items')
-  }
-}
-
-const generateShields = () => {
-  const merchant = 'Store_08_Orlan_Peddler'
-  const merchantUuid = '1eea934a-679d-43d8-b24a-6de7ca23371e'
-
-  if (shields.length) {
-    const bundle = {
-      ...gameDataBundle,
-    }
-    bundle.GameDataObjects[0].Components[0].Items = getMerchantItems(shields)
-    bundle.GameDataObjects[0].DebugName = merchant
-    bundle.GameDataObjects[0].ID = merchantUuid
-
-    saveGameDataBundle(bundle, 'shields')
-  }
-}
-
-const generateWeapons = () => {
-  const merchant = 'Store_05_AD_Marihi'
-  const merchantUuid = '7f072d26-8d4a-4033-bddc-ecb4128d2e97'
-
-  if (weapons.length) {
-    const bundle = {
-      ...gameDataBundle,
-    }
-    bundle.GameDataObjects[0].Components[0].Items = getMerchantItems(weapons)
-    bundle.GameDataObjects[0].DebugName = merchant
-    bundle.GameDataObjects[0].ID = merchantUuid
-
-    saveGameDataBundle(bundle, 'weapons')
-  }
+  })
 }
 
 const getMerchantItems = (gameData: GameData) => {
@@ -107,10 +101,11 @@ const saveGameDataBundle = (bundle: GameDataBundle, type: BundleType) => {
   fs.writeFileSync(filePath, fileContent)
 }
 
-generateArmour()
-generateItems()
-generateShields()
-generateWeapons()
+/**
+ * Supplies! Get your Supplies!
+ */
+
+generateBundles()
 
 if (isProduction) {
   packageExtension()
