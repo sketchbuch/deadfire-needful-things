@@ -1,5 +1,6 @@
 import * as fs from 'fs'
 import * as path from 'path'
+import zipper from 'zip-local'
 import { armour } from './data/armour'
 import type { GameData, GameDataBundle } from './data/gamedatabundle'
 import { gameDataBundle, gameItem } from './data/gamedatabundle'
@@ -9,7 +10,8 @@ import { weapons } from './data/weapons'
 
 type BundleType = 'armour' | 'items' | 'shields' | 'weapons'
 
-const isProduction = process.env.NODE_ENV === 'production'
+const { NODE_ENV, npm_package_version: version } = process.env
+const isProduction = NODE_ENV === 'production'
 
 const generateArmour = () => {
   const merchant = 'Store_09_PM_Tavern_Regen'
@@ -88,7 +90,10 @@ const getMerchantItems = (gameData: GameData) => {
 }
 
 const packageExtension = () => {
-  console.log('### packageExtension()')
+  zipper.sync
+    .zip('dist')
+    .compress()
+    .save(path.join('dist', `needful_things_v${version}.zip`))
 }
 
 const writeGameDataBundle = (bundle: GameDataBundle, type: BundleType) => {
