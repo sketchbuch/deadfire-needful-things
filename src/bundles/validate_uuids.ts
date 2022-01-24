@@ -1,7 +1,7 @@
 /**
  * This script will validate that all UUIDs are correctly formed.
  * Run only when there is a build directory.
- * This will not check that the UUIDs actually exist in Deadfire or that they point to an item.
+ * This will not check that the UUIDs actually exist in Deadfire or that they point to an item/vendor.
  */
 
 import { armour } from '../data/armour'
@@ -14,7 +14,7 @@ import { GameData } from './gamedatabundle'
 // https://gist.github.com/bugventure/f71337e3927c34132b9a
 const uuidV4Regex = /^[A-F\d]{8}-[A-F\d]{4}-4[A-F\d]{3}-[89AB][A-F\d]{3}-[A-F\d]{12}$/i
 
-const validateUuids = (data: GameData, type: BundleType) => {
+const validateItemUuids = (data: GameData, type: BundleType) => {
   data.forEach((i) => {
     if (!uuidV4Regex.test(i.uuid)) {
       throw new Error(`${type} data contains an invalid UUID for "${i.label}"`)
@@ -23,10 +23,10 @@ const validateUuids = (data: GameData, type: BundleType) => {
 }
 
 try {
-  validateUuids(armour, 'armour')
-  validateUuids(items, 'items')
-  validateUuids(shields, 'shields')
-  validateUuids(weapons, 'weapons')
+  validateItemUuids(armour, 'armour')
+  validateItemUuids(items, 'items')
+  validateItemUuids(shields, 'shields')
+  validateItemUuids(weapons, 'weapons')
 
   bundleList.forEach((i) => {
     if (!uuidV4Regex.test(i.merchantUuid)) {
