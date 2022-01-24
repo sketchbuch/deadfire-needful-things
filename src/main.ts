@@ -12,6 +12,9 @@ type BundleType = 'armour' | 'items' | 'shields' | 'weapons'
 
 const { NODE_ENV, npm_package_version: version } = process.env
 const isProduction = NODE_ENV === 'production'
+const bundleOutputDir = isProduction
+  ? path.join('dist', 'Needful Things', 'design', 'gamedata')
+  : 'build'
 
 const generateArmour = () => {
   const merchant = 'Store_09_PM_Tavern_Regen'
@@ -97,11 +100,8 @@ const packageExtension = () => {
 }
 
 const writeGameDataBundle = (bundle: GameDataBundle, type: BundleType) => {
-  const basePath = isProduction
-    ? path.join('dist', 'Needful Things', 'design', 'gamedata')
-    : 'build'
   fs.writeFileSync(
-    path.join(basePath, `needfullthings.${type}.gamedatabundle`),
+    path.join(bundleOutputDir, `needfullthings.${type}.gamedatabundle`),
     JSON.stringify(bundle)
   )
 }
