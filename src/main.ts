@@ -87,8 +87,8 @@ const getMerchantItems = (gameData: GameData) => {
 
     return {
       ...gameItem,
-      ItemID: uuid,
       ...(item ? item : {}),
+      ItemID: uuid,
     }
   })
 }
