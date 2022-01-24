@@ -1,33 +1,28 @@
-import * as fs from 'fs'
-import * as path from 'path'
-import zipper from 'zip-local'
+import { GameData, Uuid } from './bundles/gamedatabundle'
+import { generateBundles } from './bundles/generateBundles'
 import { armour } from './data/armour'
-import type { GameData, GameDataBundle, Uuid } from './data/gamedatabundle'
-import { gameDataBundle, gameItem } from './data/gamedatabundle'
 import { items } from './data/items'
 import { shields } from './data/shields'
 import { weapons } from './data/weapons'
+import { packageExtension } from './fs/packageExtension'
 
 interface Bundle {
   data: GameData
-  label: String // To help identify the Merchant, not included in bundle output
-  merchant: String
+  label: string // To help identify the Merchant, not included in bundle output
+  merchant: string
   merchantUuid: Uuid
   type: BundleType
 }
 
-type BundleType = 'armour' | 'items' | 'shields' | 'weapons'
+export type BundleType = 'armour' | 'items' | 'shields' | 'weapons'
 
-type Bundles = Bundle[]
+export type Bundles = Bundle[]
 
 const { NODE_ENV, npm_package_version: version } = process.env
 const isProduction = NODE_ENV === 'production'
 const outputDir = 'dist'
-const bundleOutputDir = isProduction
-  ? path.join(outputDir, 'Needful Things', 'design', 'gamedata')
-  : 'build'
 
-const bundles: Bundles = [
+const bundleList: Bundles = [
   {
     data: armour,
     label: "Wanika (Queen's Berth)",
@@ -58,55 +53,12 @@ const bundles: Bundles = [
   },
 ]
 
-const generateBundles = () => {
-  bundles.forEach((bundle) => {
-    const { data, merchant, merchantUuid, type } = bundle
-
-    if (data.length) {
-      const bundle = {
-        ...gameDataBundle,
-      }
-      bundle.GameDataObjects[0].Components[0].Items = getMerchantItems(data)
-      bundle.GameDataObjects[0].DebugName = merchant
-      bundle.GameDataObjects[0].ID = merchantUuid
-
-      saveGameDataBundle(bundle, type)
-    }
-  })
-}
-
-const getMerchantItems = (gameData: GameData) => {
-  return gameData.map((data) => {
-    const { uuid, item } = data
-
-    return {
-      ...gameItem,
-      ...(item ? item : {}),
-      ItemID: uuid,
-    }
-  })
-}
-
-const packageExtension = () => {
-  zipper.sync
-    .zip(outputDir)
-    .compress()
-    .save(path.join(outputDir, `needful_things_v${version}.zip`))
-}
-
-const saveGameDataBundle = (bundle: GameDataBundle, type: BundleType) => {
-  const fileContent = isProduction ? JSON.stringify(bundle) : JSON.stringify(bundle, null, 2)
-  const filePath = path.join(bundleOutputDir, `needfullthings_${type}.gamedatabundle`)
-
-  fs.writeFileSync(filePath, fileContent)
-}
-
 /**
  * Supplies! Get your Supplies!
  */
 
-generateBundles()
+generateBundles(bundleList, isProduction, outputDir)
 
 if (isProduction) {
-  packageExtension()
+  packageExtension(outputDir, version)
 }

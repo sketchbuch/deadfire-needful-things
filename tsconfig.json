@@ -20,9 +20,11 @@
     "target": "ES6",
   },
   "exclude": [
+    "__snapshots__",
+    "*.config.js",
+    "src/**/*.test.ts",
     "build",
-    "commitlint.config.js",
     "dist",
-    "node_modules"
+    "node_modules",
   ]
 }

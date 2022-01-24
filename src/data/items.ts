@@ -1,4 +1,4 @@
-import type { GameData } from './gamedatabundle'
+import { GameData } from '../bundles/gamedatabundle'
 
 const amulets: GameData = [
   {

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getMerchantItems() Items have the correct shape 1`] = `"[{\\"Conditional\\":{\\"Components\\":[],\\"Operator\\":0},\\"ItemID\\":\\"66f77403-092a-46be-a8b5-a4b4cd36e637\\",\\"LockedVisible\\":\\"false\\",\\"LootListID\\":\\"00000000-0000-0000-0000-000000000000\\",\\"MaxCount\\":1,\\"MinCount\\":1,\\"OutputChance\\":1,\\"Weight\\":1},{\\"Conditional\\":{\\"Components\\":[],\\"Operator\\":0},\\"ItemID\\":\\"4871decb-3312-4d46-8cf4-5e15e452d6ef\\",\\"LockedVisible\\":\\"false\\",\\"LootListID\\":\\"11111111-2222-3333-4444-555555555555\\",\\"MaxCount\\":1,\\"MinCount\\":1,\\"OutputChance\\":1,\\"Weight\\":1}]"`;
