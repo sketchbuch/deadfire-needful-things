@@ -347,7 +347,7 @@ const swords: GameData = [
   },
   {
     label: 'Whispers of Yenwood',
-    uuid: 'e758e81-37e2-435e-ae90-9e05e9537d34',
+    uuid: '5e758e81-37e2-435e-ae90-9e05e9537d34',
   },
   {
     label: 'Modwyr',
