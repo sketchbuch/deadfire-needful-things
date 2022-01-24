@@ -52,7 +52,7 @@ const generateShields = () => {
   const merchant = 'Store_09_PM_Tavern_Regen'
   const merchantUuid = '2b57b471-18fa-471c-b00b-098c0c6831fa'
 
-  if (weapons.length) {
+  if (shields.length) {
     const bundle = {
       ...gameDataBundle,
     }
