@@ -290,3 +290,4 @@ If you use the [Terminals Manager](https://github.com/fabiospampinato/vscode-ter
 ## Links
 
 * https://www.nexusmods.com/pillarsofeternity2/mods/585
+* https://steamcommunity.com/sharedfiles/filedetails/?id=2731439526
