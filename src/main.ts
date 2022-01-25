@@ -20,7 +20,7 @@ export type Bundles = Bundle[]
 
 const { NODE_ENV, npm_package_version: version } = process.env
 const isProduction = NODE_ENV === 'production'
-const outputDir = 'dist'
+export const outputDir = 'dist'
 
 export const bundleList: Bundles = [
   {
