@@ -4,7 +4,8 @@
   "displayName": "Package Installer",
   "version": "1.0.0",
   "author": {
-    "name": "sketchbuch"
+    "name": "sketchbuch",
+    "url" : "https://github.com/sketchbuch/"
   },
   "bugs": {
     "url": "https://github.com/sketchbuch/deadfire_needful_things/issues"
