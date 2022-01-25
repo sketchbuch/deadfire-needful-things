@@ -1,4 +1,5 @@
-# Deadfire Needful Things
+# Deadfire Mod: Needful Things
+**deadfire-needful-things**
 
 ## Ado Watcher!
 
