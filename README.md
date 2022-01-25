@@ -2,7 +2,7 @@
 
 ## Ado Watcher!
 
-This is a mod for Pillars of Eternity 2: Deadfire that adds lots existing unique/soulbound equipment to various vendors around Neketaka.
+This is a mod for Pillars of Eternity 2: Deadfire that adds lots of existing unique/soulbound equipment to various vendors around Neketaka.
 
 Items that are easy to get, like Miscreant's Leathers, The Eye of Wael, Lord Darryn's Volge, Saru-Sichr etc. are not included. Likewise anything that can be bought really easily is also not added, basically anything from easily accessible stores like Dunnage, Dark Cupboard, Deck of Many Things etc.
 
@@ -243,6 +243,8 @@ If you are familiar with node, yarn, and have experience with javascript/typescr
 
 The following scripts are available:
 
+**bold script** = make sure the build folder has been created first
+
 Script         | Description
 -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 clean          | Runs all clean scripts
@@ -261,8 +263,6 @@ package:test   | Test and check everything about the mod: will run clean, lint, 
 static-copy    | Copies the extension static files to the "dist" folder
 test           | Run unit tests
 **validate**   | Validates all UUIDs to make sure they are correctly formed, this is used to make sure there are no errors in the UUIDs that you copy. NB: DOES NOT VALIDATE THAT THEY EXIST IN DEADFIRE
-
-bold = Make sure the build folder has been created first
 
 ### Files and Folders
 
