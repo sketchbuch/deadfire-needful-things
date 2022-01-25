@@ -12,7 +12,7 @@ After nearly 1600 hours playing Deadfire (the majority being on upscaled Path of
 
 All this mod does is add the items to various vendors, it does not have anything to do with the prices those vendors charge. This is something I don't want to change or see any need to change. If you do not have the money for these items, go complete some bounties my cullies!
 
-## Supplies! Get your Supplies!
+## Supplies! Get your supplies here!
 
 The following items have been made available:
 

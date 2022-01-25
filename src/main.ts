@@ -54,7 +54,7 @@ export const bundleList: Bundles = [
 ]
 
 /**
- * Supplies! Get your Supplies!
+ * Supplies! Get your supplies here!
  */
 
 generateBundles(bundleList, isProduction, outputDir)
