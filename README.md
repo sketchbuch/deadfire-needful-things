@@ -286,3 +286,7 @@ static        | Fixed files needed by the mod. DO NOT CHANGE ANYTHING HERE unles
 You can run yarn compile:watch in one terminal and in another run yarn dev to see the results of your changes.
 
 If you use the [Terminals Manager](https://github.com/fabiospampinato/vscode-terminals) extension, a terminals.json config for these terminals is in the .vscode folder.
+
+## Links
+
+* https://www.nexusmods.com/pillarsofeternity2/mods/585
