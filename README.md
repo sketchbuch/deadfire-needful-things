@@ -275,7 +275,7 @@ dist          | The mod for distribution. Copy the Needful Things folder from he
 src           | The source files for this mod
 src/bundles   | Code for generating the bundle file content using the UUID data
 src/data      | The actual UUIDs of the items this mod adds.
-src/fs        | Filesystem related funtions for packaging the extension or exporting item lists.
+src/fs        | Filesystem related functions for packaging the extension or exporting item lists.
 src/main.ts   | The code that generates the bundles as well as a list of the bundles to be created.
 static        | Fixed files needed by the mod. DO NOT CHANGE ANYTHING HERE unless you know what you are doing.
 
