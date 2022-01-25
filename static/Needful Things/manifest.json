@@ -1,14 +1,14 @@
 {
-  "Title": {
-    "en": "Needfull Things"
-  },
+  "Author": "Sketchbuch",
   "Description": {
     "en": "Adds the unique/soulbound items to various neketakan merchants."
   },
-  "Author": "Sketchbuch",
   "ModVersion": "1.0",
   "supportedGameVersion": {
     "Min": "5.0.0",
     "Max": "5.9.9"
+  },
+  "Title": {
+    "en": "Needful Things"
   }
 }
