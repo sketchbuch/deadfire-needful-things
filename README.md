@@ -10,7 +10,7 @@ Items that are easy to get, like Miscreant's Leathers, The Eye of Wael, Lord Dar
 
 After nearly 1600 hours playing Deadfire (the majority being on upscaled Path of the Damned) I decided want some items earlier then it is possible to get in the game for RP reasons or for specific builds. I don't have the console installed or have any interest in entering console commands so I made this mod to give me access to various items early.
 
-All this mod does is add the items to various vendors, it dos not have anything to do with the prices those vendors charge. This is something I don't want to change or see any need to change. if you do not have the money for these items, go complete some bounties!
+All this mod does is add the items to various vendors, it does not have anything to do with the prices those vendors charge. This is something I don't want to change or see any need to change. if you do not have the money for these items, go complete some bounties!
 
 ## Supplies! Get your Supplies!
 
