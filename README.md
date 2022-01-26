@@ -235,7 +235,7 @@ Weapons | Marihi (Periki's Overlook)
 
 If you can help improve this mod feel free to make suggestions via the issues for this repo or if you are a javascript developer, fork this repo and submit a PR if you prefer.
 
-## Nerd info
+## Animancy Guide
 
 This repo is not just a mod, it also has a complete build system for generating the mod.
 
