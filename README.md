@@ -4,7 +4,7 @@ A mod for Pillars of Eternity 2: Deadfire
 
 ## Ado Watcher!
 
-This mod adds many existing unique or soulbound pieces of equipment to various merchants around Neketaka.
+This mod adds many existing unique/soulbound items to merchants in Neketaka.
 
 Items that are easy to get, like Miscreant's Leathers, The Eye of Wael, Lord Darryn's Volge, Saru-Sichr etc. are not included. Likewise anything that can be bought really easily is also not added, basically anything from easily accessible stores like The Treasure Trove, The Dark Cupboard, Deck of Many Things etc.
 
