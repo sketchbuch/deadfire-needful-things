@@ -6,7 +6,7 @@ A mod for Pillars of Eternity 2: Deadfire
 
 This mod adds many existing unique/soulbound equipment to various vendors around Neketaka.
 
-Items that are easy to get, like Miscreant's Leathers, The Eye of Wael, Lord Darryn's Volge, Saru-Sichr etc. are not included. Likewise anything that can be bought really easily is also not added, basically anything from easily accessible stores like Dunnage, Dark Cupboard, Deck of Many Things etc.
+Items that are easy to get, like Miscreant's Leathers, The Eye of Wael, Lord Darryn's Volge, Saru-Sichr etc. are not included. Likewise anything that can be bought really easily is also not added, basically anything from easily accessible stores like The Treasure Trove, The Dark Cupboard, Deck of Many Things etc.
 
 After nearly 1600 hours playing Deadfire (the majority being on upscaled Path of the Damned) I decided that I want some items earlier then it is possible to get in the game for RP reasons or for specific builds. I don't have the console installed or have any interest in entering console commands so I made this mod to give me access to various items early.
 
