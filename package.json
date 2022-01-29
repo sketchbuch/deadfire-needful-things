@@ -1,6 +1,6 @@
 {
-  "name": "deadfire_needful_things",
-  "description": "A mod for Pillars of Eternity 2: Deadfire that adds many existing unique/soulbound equipment to various vendors around Neketaka.",
+  "name": "deadfire-needful-things",
+  "description": "A mod for Pillars of Eternity 2: Deadfire that adds many existing unique/soulbound items to merchants in Neketaka.",
   "displayName": "Package Installer",
   "version": "1.0.0",
   "author": {
@@ -8,14 +8,14 @@
     "url" : "https://github.com/sketchbuch/"
   },
   "bugs": {
-    "url": "https://github.com/sketchbuch/deadfire_needful_things/issues"
+    "url": "https://github.com/sketchbuch/deadfire-needful-things/issues"
   },
   "license": "SEE LICENSE IN LICENSE",
   "main": "./src/main.ts",
   "publisher": "sketchbuch",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sketchbuch/deadfire_needful_things"
+    "url": "https://github.com/sketchbuch/deadfire-needful-things"
   },
   "scripts": {
     "clean": "yarn clean:build && yarn clean:dist",
