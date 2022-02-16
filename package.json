@@ -2,7 +2,7 @@
   "name": "deadfire-needful-things",
   "description": "A mod for Pillars of Eternity 2: Deadfire that adds many existing unique/soulbound items to merchants in Neketaka.",
   "displayName": "Package Installer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "sketchbuch",
     "url" : "https://github.com/sketchbuch/"
@@ -23,17 +23,17 @@
     "clean:dist": "rimraf ./dist",
     "compile": "tsc -p tsconfig.json",
     "compile:watch": "tsc -w -p tsconfig.json",
-    "dev": "cross-env NODE_ENV=development node build/main.js",
+    "dev": "cross-env NODE_ENV=development node build/src/main.js",
     "export": "node build/fs/exportItems.js",
     "lint": "yarn lint:ts && yarn lint:prettier",
     "lint:prettier": "prettier --write --config ./.prettierrc.js './src/**/*.ts'",
     "lint:ts": "eslint ./src --ext ts --fix",
     "package": "yarn clean && yarn compile && yarn static-copy && yarn production",
     "package:test": "yarn clean && yarn lint && yarn compile && yarn validate && yarn dev",
-    "production": "cross-env NODE_ENV=production node build/main.js",
+    "production": "cross-env NODE_ENV=production node build/src/main.js",
     "static-copy": "shx cp -R ./static ./dist && shx mkdir -p ./dist/Needful\\ Things/design/gamedata",
     "test": "jest",
-    "validate": "node build/bundles/validate_uuids.js"
+    "validate": "node build/src/bundles/validate_uuids.js"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",

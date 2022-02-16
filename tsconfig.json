@@ -14,7 +14,7 @@
     "noEmit": false,
     "outDir": "./build",
     "resolveJsonModule": true,
-    "rootDir": "./src",
+    "rootDir": "./",
     "skipLibCheck": true,
     "strict": false,
     "target": "ES6",
@@ -26,5 +26,8 @@
     "build",
     "dist",
     "node_modules",
+  ],
+  "include": [
+    "src/**/*.ts",
   ]
 }
