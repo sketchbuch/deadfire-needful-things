@@ -1,3 +1,4 @@
+import manifest from '../static/Needful Things/manifest.json'
 import { GameData, Uuid } from './bundles/gamedatabundle'
 import { generateBundles } from './bundles/generateBundles'
 import { armour } from './data/armour'
@@ -18,9 +19,8 @@ export type BundleType = 'armour' | 'items' | 'shields' | 'weapons'
 
 export type Bundles = Bundle[]
 
-const { NODE_ENV, npm_package_version: version } = process.env
-const isProduction = NODE_ENV === 'production'
-export const outputDir = 'dist'
+const isProduction = process.env.NODE_ENV === 'production'
+const outputDir = 'dist'
 
 export const bundleList: Bundles = [
   {
@@ -60,5 +60,5 @@ export const bundleList: Bundles = [
 generateBundles(bundleList, isProduction, outputDir)
 
 if (isProduction) {
-  packageExtension(outputDir, version)
+  packageExtension(outputDir, manifest.ModVersion)
 }
