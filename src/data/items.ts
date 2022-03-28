@@ -85,6 +85,10 @@ const amulets: GameData = [
     label: 'Weight of Revelation',
     uuid: '45e22f07-1f7e-4009-bede-299e8809024b',
   },
+  {
+    label: 'Tooth of Toamowhai',
+    uuid: '27a89a19-2ba0-4efc-8b15-08a8aaed86e7',
+  },
 ]
 
 const belts: GameData = [
