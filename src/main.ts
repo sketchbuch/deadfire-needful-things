@@ -15,7 +15,7 @@ interface Bundle {
   type: BundleType
 }
 
-export type BundleType = 'armour' | 'items' | 'shields' | 'weapons'
+export type BundleType = 'armour' | 'grimoires' | 'items' | 'shields' | 'weapons'
 
 export type Bundles = Bundle[]
 

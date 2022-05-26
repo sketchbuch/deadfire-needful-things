@@ -5,6 +5,7 @@
  */
 
 import { armour } from '../data/armour'
+import { grimoires } from '../data/grimoires'
 import { items } from '../data/items'
 import { shields } from '../data/shields'
 import { weapons } from '../data/weapons'
@@ -24,6 +25,7 @@ const validateItemUuids = (data: GameData, type: BundleType) => {
 
 try {
   validateItemUuids(armour, 'armour')
+  validateItemUuids(grimoires, 'grimoires')
   validateItemUuids(items, 'items')
   validateItemUuids(shields, 'shields')
   validateItemUuids(weapons, 'weapons')

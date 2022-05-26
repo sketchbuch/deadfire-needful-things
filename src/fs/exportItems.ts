@@ -2,6 +2,7 @@ import * as fs from 'fs'
 import * as path from 'path'
 import { GameData } from '../bundles/gamedatabundle'
 import { armour } from '../data/armour'
+import { grimoires } from '../data/grimoires'
 import { items } from '../data/items'
 import { shields } from '../data/shields'
 import { weapons } from '../data/weapons'
@@ -22,6 +23,11 @@ const dataLists: DataLists[] = [
     data: armour,
     label: 'Armour',
     type: 'armour',
+  },
+  {
+    data: grimoires,
+    label: 'Grimoires',
+    type: 'grimoires',
   },
   {
     data: items,
