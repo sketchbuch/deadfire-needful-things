@@ -242,6 +242,14 @@ const cloaks: GameData = [
   },
 ]
 
+const figurines: GameData = [
+  {
+    label: "Effigy doll",
+    url: 'https://pillarsofeternity.fandom.com/wiki/Effigy_doll',
+    uuid: 'd0b92e57-6e3b-4253-9a2d-827a72c9a799',
+  },
+]
+
 const gloves: GameData = [
   {
     label: "Aegor's Swift Touch",
@@ -434,6 +442,11 @@ const rings: GameData = [
     url: '',
     uuid: '733009a4-3a8c-46aa-b19a-31e1c05eb0cd',
   },
+  {
+    label: 'Ring of Greater Regeneration',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Ring_of_Greater_Regeneration',
+    uuid: 'e4f331e9-0b26-4784-941b-39a4224631c2',
+  },
 ]
 
 export const items: GameData = [
@@ -441,6 +454,7 @@ export const items: GameData = [
   ...belts,
   ...boots,
   ...cloaks,
+  ...figurines,
   ...gloves,
   ...headgear,
   ...rings,
