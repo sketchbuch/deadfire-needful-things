@@ -1,4 +1,4 @@
-import { isUrlValid, urlPrefix } from './isUrlValid'
+import { isUrlValid, urlPrefix } from '../isUrlValid'
 
 describe('isUrlValid()', () => {
   const validUrl = `${urlPrefix}Effigy%27s_Husk`
