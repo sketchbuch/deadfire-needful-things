@@ -33,7 +33,7 @@
     "production": "cross-env NODE_ENV=production node build/src/main.js",
     "static-copy": "shx cp -R ./static ./dist && shx mkdir -p ./dist/Needful\\ Things/design/gamedata",
     "test": "jest",
-    "validate": "node build/src/bundles/validate_uuids.js"
+    "validate": "node build/src/validation/validate.js"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",

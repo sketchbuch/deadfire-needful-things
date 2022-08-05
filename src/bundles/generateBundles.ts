@@ -1,6 +1,6 @@
 import { saveGameDataBundle } from '../fs/saveGameDataBundle'
-import { Bundles } from '../main'
-import { gameDataBundle } from './gamedatabundle'
+import { Bundles } from './bundles'
+import { gameDataBundle } from './gamedata'
 import { getMerchantItems } from './getMerchantItems'
 
 export const generateBundles = (bundles: Bundles, isProduction: boolean, outputDir: string) => {

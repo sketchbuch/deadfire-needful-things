@@ -1,4 +1,4 @@
-import { GameData } from '../bundles/gamedatabundle'
+import { GameData } from '../bundles/gamedata'
 
 const amulets: GameData = [
   {
@@ -116,32 +116,32 @@ const amulets: GameData = [
 const belts: GameData = [
   {
     label: "Belt of Magran's Chosen",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Belt_of_Magran%27s_Chosen',
     uuid: 'bf2bfafa-045b-4a47-81cb-9d81df3160e2',
   },
   {
     label: 'Least Unstable Coil',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Least_Unstable_Coil',
     uuid: '6623dd6f-3170-40e2-ad5d-35e5efb8dcc8',
   },
   {
     label: "Maura's Grasping Belt",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Maura%27s_Grasping_Belt',
     uuid: '64899df2-8c1b-4b52-935b-1873226fa39a',
   },
   {
     label: "Mewnan's Broad Belt",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Mewnan%27s_Broad_Belt',
     uuid: '9d3615b6-d2ed-4345-bd17-e463c9342eed',
   },
   {
     label: "The Maker's Own Power",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/The_Maker%27s_Own_Power',
     uuid: 'b0234dfc-51dc-4ada-b741-00d611419d13',
   },
   {
     label: "Upright Captain's Belt",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Upright_Captain%27s_Belt',
     uuid: '61482983-9caf-4449-904c-0421657368b8',
   },
 ]
@@ -149,37 +149,37 @@ const belts: GameData = [
 const boots: GameData = [
   {
     label: "Dreamwalker's Tread",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Dreamwalker%27s_Tread',
     uuid: '9986599e-d508-439a-9134-a266220f004b',
   },
   {
     label: "Fenan's Finery",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Fenan%27s_Finery',
     uuid: '3aa83b79-a994-4415-b3ff-4a907238274e',
   },
   {
     label: 'Footprints of Ahu Taka',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Footprints_of_Ahu_Taka',
     uuid: '4f53863d-ab31-4bf0-8460-9077b3b69960',
   },
   {
     label: 'Footsteps of the Beast',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Footsteps_of_the_Beast',
     uuid: '487619a0-1c86-4d62-96e7-93eeb61fd185',
   },
   {
     label: "Pathfinder's Boots",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Pathfinder%27s_Boots',
     uuid: '96a235b4-fa19-47f8-8cb1-749cab686caa',
   },
   {
     label: 'Rakhan Field Boots',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Rakhan_Field_Boots',
     uuid: '05c37443-2291-41fe-aac3-8cbc2312e455',
   },
   {
     label: 'Vithrack Silk Slippers',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Vithrack_Silk_Slippers',
     uuid: '8e7077d1-c8f4-4b1e-90ab-ef384550396d',
   },
 ]
@@ -187,103 +187,103 @@ const boots: GameData = [
 const cloaks: GameData = [
   {
     label: "Ajamuut's Stalking Cloak",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Ajamuut%27s_Stalking_Cloak',
     uuid: '7e3d734b-ce0c-4f79-81f1-2e0989173330',
   },
   {
     label: "Champion's Cape",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Champion%27s_Cape',
     uuid: 'd89a3a35-94b3-4243-a4a1-2b9f6381836b',
   },
   {
     label: 'Frostfur Mantle',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Frostfur_Mantle',
     uuid: 'a384ab68-b76f-4450-afbd-f44997cf75e7',
   },
   {
     label: "Hakori's Refuge",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Frostfur_Mantle',
     uuid: 'a261b2ea-67d3-4a7e-8aec-6c74749dd378',
   },
   {
     label: "Nemnok's Cloak",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Nemnok%27s_Cloak',
     uuid: '601d597d-1926-41ee-a274-c0b558817dd8',
   },
   {
     label: 'Ragged Cloak',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Ragged_Cloak',
     uuid: 'cf9d4c6f-c8e1-49ef-8ff9-db02c7600072',
   },
   {
     label: "Rekvu's Scorched Cloak",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Rekvu%27s_Scorched_Cloak',
     uuid: 'c9a3e8b9-3441-407a-aa31-fa5fc6a5a2ad',
   },
   {
     label: "Ruata's Walking Cloak",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Ruata%27s_Walking_Cloak',
     uuid: '32e1c7ac-cdec-4bed-bd85-952fb9822c11',
   },
   {
     label: 'Shroud of the Phantasm',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Shroud_of_the_Phantasm',
     uuid: '5cad163c-336f-42c3-ac61-433a26d8a1a2',
   },
   {
     label: "The Giftbearer's Cloth",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/The_Giftbearer%27s_Cloth',
     uuid: 'd2959867-05d2-450f-b863-243474a4c5c0',
   },
   {
     label: 'Violet Redemption',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Violet_Redemption',
     uuid: 'd3389095-d132-4c3b-962b-e4d411486446',
   },
 ]
 
 const figurines: GameData = [
   {
-    label: "Effigy doll",
+    label: 'Effigy doll',
     url: 'https://pillarsofeternity.fandom.com/wiki/Effigy_doll',
     uuid: 'd0b92e57-6e3b-4253-9a2d-827a72c9a799',
   },
 ]
 
-const gloves: GameData = [
+const handwear: GameData = [
   {
     label: "Aegor's Swift Touch",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Aegor%27s_Swift_Touch',
     uuid: '1b2d9f8e-83a6-47c4-8405-287772a3af5b',
   },
   {
     label: 'Boltcatchers',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Boltcatchers',
     uuid: 'c58cb60b-f78f-4005-8409-398bf15a27ad',
   },
   {
     label: 'Corroded Vambraces',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Corroded_Vambraces',
     uuid: '3a70742b-a3c2-47d8-9e0a-abb51afa9ee7',
   },
   {
     label: 'Engwithan Bracers',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Engwithan_Bracers',
     uuid: '184cb560-18a0-46c4-8ff8-4cb066c89db8',
   },
   {
     label: "Onepahua's Strength",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Onepahua%27s_Strength',
     uuid: '672dbfae-a933-4d9f-9bdb-636c2795f5ce',
   },
   {
     label: 'The Left Hand of the Obscured',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/The_Left_Hand_of_the_Obscured',
     uuid: '179ca631-b1a5-4b3c-9e54-9f105b6e7e32',
   },
   {
     label: "Woedica's Strangling Grasp",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Woedica%27s_Strangling_Grasp',
     uuid: 'f76665ff-1dd4-436f-abf7-91f155b048c3',
   },
 ]
@@ -291,92 +291,97 @@ const gloves: GameData = [
 const headgear: GameData = [
   {
     label: "Acina's Tricorn",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Acina%27s_Tricorn',
     uuid: '9e05616f-b9be-4875-a9a3-034953ca3d8d',
   },
   {
     label: "Blackblade's Hood",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Blackblade%27s_Hood',
     uuid: 'b2d9f9be-e796-4af9-8a66-616c422b1942',
   },
   {
     label: 'Blackened Plate Helm',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Blackened_Plate_Helm',
     uuid: '69d4375f-e058-40dc-861d-d6ee686c3609',
   },
   {
     label: "Champion's Helm",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Champion%27s_Helm',
     uuid: '306d1a47-1a94-455e-96c8-c28a66c02065',
   },
   {
     label: "Contender's Helm",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Contender%27s_Helm',
     uuid: 'ef821c0b-4753-49f7-b6f0-ff412993450c',
   },
   {
     label: "Copperhead's Helm",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Copperhead%27s_Helm',
     uuid: '935f9e26-62fe-4d0a-b6c4-601fa9d45e1e',
   },
   {
     label: 'Cowl of the Piercing Gaze',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Cowl_of_the_Piercing_Gaze',
     uuid: '38d3e917-9d1e-4919-a925-cf26b75a127b',
   },
   {
     label: "Death's Maw",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Death%27s_Maw',
     uuid: '2d98e788-6778-4c6b-a54e-1039c90efe27',
   },
   {
     label: "Deltro's Cage Helm",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Deltro%27s_Cage_Helm',
     uuid: '69630501-fac4-43e3-80af-0ed688265bb2',
   },
   {
     label: 'Fair Favor',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Fair_Favor',
     uuid: 'efb984ca-c751-4d89-835f-caab0514a142',
   },
   {
     label: 'Helm of the Falcon',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Helm_of_the_Falcon',
     uuid: '88cc7592-3d66-47e4-bf1f-534028561030',
   },
   {
     label: 'Helm of the White Void',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Helm_of_the_White_Void',
     uuid: 'b08f1d1d-99d5-45ce-8404-d25f84e602d5',
   },
   {
     label: 'Horns of the Aurochs',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Horns_of_the_Aurochs',
     uuid: '142a4f22-803d-48eb-8f76-fd68a59dffda',
   },
   {
     label: 'Mask of the Grotto Deep',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Mask_of_the_Grotto_Deep',
     uuid: 'd9c5434a-8a71-48d7-b367-b071fa89064c',
   },
   {
     label: 'Serpent Crown',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Serpent_Crown',
     uuid: '62187e22-f3ec-4e53-ae0c-1c55fea03fba',
   },
   {
     label: "Survivor's Tusks",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Survivor%27s_Tusks',
     uuid: '9ce49058-4cb7-4b6d-bec6-e0b5d5792fd0',
   },
   {
+    label: "Thaos' Headdress",
+    url: 'https://pillarsofeternity.fandom.com/wiki/Thaos%27_Headdress',
+    uuid: '148c31cd-b698-445b-9f82-a25b71bb1a81',
+  },
+  {
     label: 'The Mask of the Weyc',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/The_Mask_of_the_Weyc',
     uuid: 'ae9393ee-7629-4dcb-b479-633431c48ab2',
   },
   {
     label: 'The Maw of Ingimyrk',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/The_Maw_of_Ingimyrk',
     uuid: '5d13bbe1-081e-4c74-af42-a6d834970f38',
   },
 ]
@@ -384,62 +389,62 @@ const headgear: GameData = [
 const rings: GameData = [
   {
     label: "Chameleon's Touch",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Chameleon%27s_Touch',
     uuid: '83894891-bb0d-49fb-845f-2888c9318889',
   },
   {
     label: "Drunkard's Regret",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Drunkard%27s_Regret',
     uuid: '8e0aa96f-1726-43aa-8d67-a3a1c3816cdd',
   },
   {
     label: "Finality's Claim",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Finality%27s_Claim',
     uuid: '5d738bec-7fbd-41b6-846e-32eddb77bf90',
   },
   {
     label: "Halgot's Warmth",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Halgot%27s_Warmth',
     uuid: 'a63da35d-90ea-4127-b4b4-b3be8d39d6be',
   },
   {
     label: 'Harmony',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Harmony',
     uuid: '82bc2ccc-83b9-47e4-90e9-a2c3cfe5336a',
   },
   {
     label: 'Ibis',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Ibis',
     uuid: '2510a73f-93b8-4e63-adab-82c8194ff000',
   },
   {
     label: "Kuaru's Prize",
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Kuaru%27s_Prize',
     uuid: '7f38c387-030a-4637-92c1-f3fedb713a3f',
   },
   {
     label: 'Ring of Clenched Muscle',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Ring_of_Clenched_Muscle',
     uuid: '1f890e58-d0ec-4ce0-85cb-f180c9a97138',
   },
   {
     label: 'Ring of Regeneration',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Ring_of_Regeneration',
     uuid: '38ab72e6-b596-48ea-9c46-30d9b1feb682',
   },
   {
     label: 'Ring of the Marksman',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Ring_of_the_Marksman',
     uuid: '50ce5057-ff60-4b92-b22b-10ea440df246',
   },
   {
     label: 'Ring of the Solitary Wanderer',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Ring_of_the_Solitary_Wanderer',
     uuid: '6f080ca8-f791-49db-998c-7a8875b38a56',
   },
   {
     label: 'Whispers from the Depths',
-    url: '',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Whispers_from_the_Depths',
     uuid: '733009a4-3a8c-46aa-b19a-31e1c05eb0cd',
   },
   {
@@ -455,7 +460,7 @@ export const items: GameData = [
   ...boots,
   ...cloaks,
   ...figurines,
-  ...gloves,
+  ...handwear,
   ...headgear,
   ...rings,
 ]

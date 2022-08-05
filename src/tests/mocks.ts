@@ -1,17 +1,19 @@
-import { GameData, GameDataBundle } from '../bundles/gamedatabundle'
-import { Bundles } from '../main'
+import { Bundles } from '../bundles/bundles'
+import { GameData, GameDataBundle } from '../bundles/gamedata'
 
 export const mockData: GameData = [
   {
     label: 'Some Item',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Some_Item',
     uuid: '66f77403-092a-46be-a8b5-a4b4cd36e637',
   },
   {
-    label: 'Another Item',
-    uuid: '4871decb-3312-4d46-8cf4-5e15e452d6ef',
     item: {
       LootListID: '11111111-2222-3333-4444-555555555555',
     },
+    label: 'Another Item',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Another_Item',
+    uuid: '4871decb-3312-4d46-8cf4-5e15e452d6ef',
   },
 ]
 
@@ -22,6 +24,7 @@ export const mockBundleList: Bundles = [
     merchant: 'Store_01',
     merchantUuid: '7f592fb9-e4c2-4091-a68c-3631e303640f',
     type: 'armour',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Test_1',
   },
 ]
 

@@ -1,4 +1,4 @@
-import { GameData } from '../bundles/gamedatabundle'
+import { GameData } from '../bundles/gamedata'
 
 const smallShields: GameData = [
   {
