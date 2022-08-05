@@ -16,221 +16,250 @@ All this mod does is add the items to various vendors, it does not have anything
 
 The following items have been made available:
 
-Type    | Location
-------- | -----------------------------
-Armour  | Wanika (Queen's Berth)
-Items   | Tiabo (Sacred Stair)
-Shields | Orlan Peddler (Brass Citadel)
-Weapons | Marihi (Periki's Overlook)
+Type        | Location
+----------- | -----------------------------
+Armour      | Wanika (Queen's Berth)
+Grimoires   | Emaita (Periki's Overlook)
+Items       | Tiabo (Sacred Stair)
+Shields     | Orlan Peddler (Brass Citadel)
+Weapons     | Marihi (Periki's Overlook)
 
 ### Armour
 
-- Blackened Plate Armor
-- Casità Samelia's Legacy
-- Contender's Armor
-- Crimson Panoply
-- Deltro's Cage
-- Desgraza Breastplate
-- Devil of Caroc Breastplate
-- Effigy's Husk
-- Fleshmender
-- Furrante's Breastplate
-- Gipon Prudensco
-- Guardian's Plate
-- Hearth Defender's Scale
-- High Harbinger's Robes
-- Honor Guard Breastplate
-- Humility
-- Kāhako Nihi
-- Magnera's Chain
-- Nomad's Brigandine
-- One Dozen Stood
-- Patinated Plate
-- Reckless Brigandine
-- Robes of the Weyc
-- Spider Silk Robe
-- Swift Hunter's Garb
-- The Changeling's Mantle
+* [Blackened Plate Armor](https://pillarsofeternity.fandom.com/wiki/Blackened_Plate_Armor)
+* [Casità Samelia's Legacy](https://pillarsofeternity.fandom.com/wiki/Casit%C3%A0_Samelia%27s_Legacy)
+* [Contender's Armor](https://pillarsofeternity.fandom.com/wiki/Contender%27s_Armor)
+* [Crimson Panoply](https://pillarsofeternity.fandom.com/wiki/Crimson_Panoply)
+* [Deltro's Cage](https://pillarsofeternity.fandom.com/wiki/Deltro%27s_Cage)
+* [Desgraza Breastplate](https://pillarsofeternity.fandom.com/wiki/Desgraza_Breastplate)
+* [Devil of Caroc Breastplate](https://pillarsofeternity.fandom.com/wiki/Devil_of_Caroc_Breastplate)
+* [Effigy's Husk](https://pillarsofeternity.fandom.com/wiki/Effigy%27s_Husk)
+* [Fleshmender](https://pillarsofeternity.fandom.com/wiki/Fleshmender)
+* [Furrante's Breastplate](https://pillarsofeternity.fandom.com/wiki/Furrante%27s_Breastplate)
+* [Gipon Prudensco](https://pillarsofeternity.fandom.com/wiki/Gipon_Prudensco)
+* [Guardian's Plate](https://pillarsofeternity.fandom.com/wiki/Guardian%27s_Plate)
+* [Hearth Defender's Scale](https://pillarsofeternity.fandom.com/wiki/Hearth_Defender%27s_Scale)
+* [High Harbinger's Robes](https://pillarsofeternity.fandom.com/wiki/High_Harbinger%27s_Robes)
+* [Honor Guard Breastplate](https://pillarsofeternity.fandom.com/wiki/Honor_Guard_Breastplate_(Pallegina))
+* [Humility](https://pillarsofeternity.fandom.com/wiki/Humility)
+* [Kāhako Nihi](https://pillarsofeternity.fandom.com/wiki/K%C4%81hako_Nihi)
+* [Magnera's Chain](https://pillarsofeternity.fandom.com/wiki/Magnera%27s_Chain)
+* [Nomad's Brigandine](https://pillarsofeternity.fandom.com/wiki/Nomad%27s_Brigandine)
+* [One Dozen Stood](https://pillarsofeternity.fandom.com/wiki/One_Dozen_Stood)
+* [Patinated Plate](https://pillarsofeternity.fandom.com/wiki/Patinated_Plate)
+* [Reckless Brigandine](https://pillarsofeternity.fandom.com/wiki/Reckless_Brigandine)
+* [Robes of the Weyc](https://pillarsofeternity.fandom.com/wiki/Robes_of_the_Weyc)
+* [Spider Silk Robe](https://pillarsofeternity.fandom.com/wiki/Spider_Silk_Robe)
+* [Swift Hunter's Garb](https://pillarsofeternity.fandom.com/wiki/Swift_Hunter%27s_Garb)
+* [The Changeling's Mantle](https://pillarsofeternity.fandom.com/wiki/The_Changeling%27s_Mantle)
+
+### Grimoires
+
+* [Aloth's Grimoire](https://pillarsofeternity.fandom.com/wiki/Aloth%27s_Grimoire_(Deadfire))
+* [Arkemyr's Grimoire](https://pillarsofeternity.fandom.com/wiki/Arkemyr%27s_Grimoire)
+* [Arkemyr's Illuminating Discoveries](https://pillarsofeternity.fandom.com/wiki/Arkemyr%27s_Illuminating_Discoveries)
+* [Bekarna's Celestial Grimoire](https://pillarsofeternity.fandom.com/wiki/Bekarna%27s_Celestial_Grimoire)
+* [Bipara's Grimoire](https://pillarsofeternity.fandom.com/wiki/Bipara%27s_Grimoire)
+* [Book of Storms](https://pillarsofeternity.fandom.com/wiki/Book_of_Storms)
+* [Brawler's Grimoire](https://pillarsofeternity.fandom.com/wiki/Brawler%27s_Grimoire)
+* [Celestial Grimoire](https://pillarsofeternity.fandom.com/wiki/Celestial_Grimoire)
+* [Eccea's Grimoire](https://pillarsofeternity.fandom.com/wiki/Eccea%27s_Grimoire)
+* [Fampyr Sage's Grimoire](https://pillarsofeternity.fandom.com/wiki/Fampyr_Sage%27s_Grimoire)
+* [Iron-Clasped Grimoire](https://pillarsofeternity.fandom.com/wiki/Iron-Clasped_Grimoire)
+* [Katrenn's Grimoire](https://pillarsofeternity.fandom.com/wiki/Katrenn%27s_Grimoire)
+* [Leofwyn's Grimoire](https://pillarsofeternity.fandom.com/wiki/Leofwyn%27s_Grimoire)
+* [Lich's Grimoire](https://pillarsofeternity.fandom.com/wiki/Lich%27s_Grimoire)
+* [Llengrath's Tome of Preservation](https://pillarsofeternity.fandom.com/wiki/Llengrath%27s_Tome_of_Preservation)
+* [Maura's Infested Grimoire](https://pillarsofeternity.fandom.com/wiki/Maura%27s_Infested_Grimoire)
+* [Mentoka's Grimoire](https://pillarsofeternity.fandom.com/wiki/Mentoka%27s_Grimoire)
+* [Menzzago's Grimoire](https://pillarsofeternity.fandom.com/wiki/Menzzago%27s_Grimoire)
+* [Sigilmaster Auranic's Grimoire](https://pillarsofeternity.fandom.com/wiki/Sigilmaster_Auranic%27s_Grimoire)
+* [Tangara's Grimoire](https://pillarsofeternity.fandom.com/wiki/Tangara%27s_Grimoire)
+* [Torn Bannermen Grimoire](https://pillarsofeternity.fandom.com/wiki/Torn_Bannermen_Grimoire)
+* [Wahaki Apprentice's Grimoire](https://pillarsofeternity.fandom.com/wiki/Wahaki_Apprentice%27s_Grimoire)
+* [Weathermage Grimoire](https://pillarsofeternity.fandom.com/wiki/Weathermage_Grimoire)
 
 ### Items
 
-- Acina's Tricorn
-- Aegor's Swift Touch
-- Ajamuut's Stalking Cloak
-- Baubles of the Fin
-- Belt of Magran's Chosen
-- Blackblade's Hood
-- Blackened Plate Helm
-- Boltcatchers
-- Bone Setter's Torc
-- Brooch of Inevitable Winter
-- Cauldron Shard
-- Chameleon's Touch
-- Champion's Cape
-- Champion's Helm
-- Cipher's Shackle
-- Claim and Refusal
-- Cog of Cohh
-- Contender's Helm
-- Copperhead's Helm
-- Corroded Vambraces
-- Cowl of the Piercing Gaze
-- Death's Maw
-- Deltro's Cage Helm
-- Dragon Pendant
-- Dreamwalker's Tread
-- Drunkard's Regret
-- Elewys' Locket
-- Engwithan Bracers
-- Fair Favor
-- Fenan's Finery
-- Finality's Claim
-- Footprints of Ahu Taka
-- Footsteps of the Beast
-- Frostfur Mantle
-- Hakori's Refuge
-- Halgot's Warmth
-- Harmony
-- Heart-Chime Amulet
-- Helm of the Falcon
-- Helm of the White Void
-- Horns of the Aurochs
-- Ibis
-- Kuaru's Prize
-- Least Unstable Coil
-- Mask of the Grotto Deep
-- Maura's Grasping Belt
-- Mewnan's Broad Belt
-- Nemnok's Cloak
-- Neriscyrlas' Hope
-- Onepahua's Strength
-- Orishia
-- Pathfinder's Boots
-- Precognition
-- Ragged Cloak
-- Rakhan Field Boots
-- Rekvu's Scorched Cloak
-- Ring of Clenched Muscle
-- Ring of Regeneration
-- Ring of the Marksman
-- Ring of the Solitary Wanderer
-- Ruata's Walking Cloak
-- Serpent Crown
-- Shroud of the Phantasm
-- Sisyfo's Stone
-- Soul Void
-- Strand of Favor
-- Survivor's Tusks
-- Tears of Saint Makawo
-- The Giftbearer's Cloth
-- The Left Hand of the Obscured
-- The Maker's Own Power
-- The Mask of the Weyc
-- The Maw of Ingimyrk
-- The Mung Bean's Mouth Organ
-- The Third Eye
-- Tooth of Toamowhai
-- Upright Captain's Belt
-- Violet Redemption
-- Vithrack Silk Slippers
-- Wahaki Tua
-- Weight of Revelation
-- Whispers from the Depths
-- Woedica's Strangling Grasp
+* [Acina's Tricorn](https://pillarsofeternity.fandom.com/wiki/Acina%27s_Tricorn)
+* [Aegor's Swift Touch](https://pillarsofeternity.fandom.com/wiki/Aegor%27s_Swift_Touch)
+* [Ajamuut's Stalking Cloak](https://pillarsofeternity.fandom.com/wiki/Ajamuut%27s_Stalking_Cloak)
+* [Baubles of the Fin](https://pillarsofeternity.fandom.com/wiki/Baubles_of_the_Fin)
+* [Belt of Magran's Chosen](https://pillarsofeternity.fandom.com/wiki/Belt_of_Magran%27s_Chosen)
+* [Blackblade's Hood](https://pillarsofeternity.fandom.com/wiki/Blackblade%27s_Hood)
+* [Blackened Plate Helm](https://pillarsofeternity.fandom.com/wiki/Blackened_Plate_Helm)
+* [Boltcatchers](https://pillarsofeternity.fandom.com/wiki/Boltcatchers)
+* [Bone Setter's Torc](https://pillarsofeternity.fandom.com/wiki/Bone_Setter%27s_Torc)
+* [Brooch of Inevitable Winter](https://pillarsofeternity.fandom.com/wiki/Brooch_of_Inevitable_Winter)
+* [Cauldron Shard](https://pillarsofeternity.fandom.com/wiki/Cauldron_Shard)
+* [Chameleon's Touch](https://pillarsofeternity.fandom.com/wiki/Chameleon%27s_Touch)
+* [Champion's Cape](https://pillarsofeternity.fandom.com/wiki/Champion%27s_Cape)
+* [Champion's Helm](https://pillarsofeternity.fandom.com/wiki/Champion%27s_Helm)
+* [Cipher's Shackle](https://pillarsofeternity.fandom.com/wiki/Cipher%27s_Shackle)
+* [Claim and Refusal](https://pillarsofeternity.fandom.com/wiki/Claim_and_Refusal)
+* [Cog of Cohh](https://pillarsofeternity.fandom.com/wiki/Cog_of_Cohh)
+* [Contender's Helm](https://pillarsofeternity.fandom.com/wiki/Contender%27s_Helm)
+* [Copperhead's Helm](https://pillarsofeternity.fandom.com/wiki/Copperhead%27s_Helm)
+* [Corroded Vambraces](https://pillarsofeternity.fandom.com/wiki/Corroded_Vambraces)
+* [Cowl of the Piercing Gaze](https://pillarsofeternity.fandom.com/wiki/Cowl_of_the_Piercing_Gaze)
+* [Death's Maw](https://pillarsofeternity.fandom.com/wiki/Death%27s_Maw)
+* [Deltro's Cage Helm](https://pillarsofeternity.fandom.com/wiki/Deltro%27s_Cage_Helm)
+* [Dragon Pendant](https://pillarsofeternity.fandom.com/wiki/Dragon_Pendant)
+* [Dreamwalker's Tread](https://pillarsofeternity.fandom.com/wiki/Dreamwalker%27s_Tread)
+* [Drunkard's Regret](https://pillarsofeternity.fandom.com/wiki/Drunkard%27s_Regret)
+* [Effigy doll](https://pillarsofeternity.fandom.com/wiki/Effigy_doll)
+* [Elewys' Locket](https://pillarsofeternity.fandom.com/wiki/Elewys%27_Locket)
+* [Engwithan Bracers](https://pillarsofeternity.fandom.com/wiki/Engwithan_Bracers)
+* [Fair Favor](https://pillarsofeternity.fandom.com/wiki/Fair_Favor)
+* [Fenan's Finery](https://pillarsofeternity.fandom.com/wiki/Fenan%27s_Finery)
+* [Finality's Claim](https://pillarsofeternity.fandom.com/wiki/Finality%27s_Claim)
+* [Footprints of Ahu Taka](https://pillarsofeternity.fandom.com/wiki/Footprints_of_Ahu_Taka)
+* [Footsteps of the Beast](https://pillarsofeternity.fandom.com/wiki/Footsteps_of_the_Beast)
+* [Frostfur Mantle](https://pillarsofeternity.fandom.com/wiki/Frostfur_Mantle)
+* [Hakori's Refuge](https://pillarsofeternity.fandom.com/wiki/Frostfur_Mantle)
+* [Halgot's Warmth](https://pillarsofeternity.fandom.com/wiki/Halgot%27s_Warmth)
+* [Harmony](https://pillarsofeternity.fandom.com/wiki/Harmony)
+* [Heart-Chime Amulet](https://pillarsofeternity.fandom.com/wiki/Heart-Chime_Amulet)
+* [Helm of the Falcon](https://pillarsofeternity.fandom.com/wiki/Helm_of_the_Falcon)
+* [Helm of the White Void](https://pillarsofeternity.fandom.com/wiki/Helm_of_the_White_Void)
+* [Horns of the Aurochs](https://pillarsofeternity.fandom.com/wiki/Horns_of_the_Aurochs)
+* [Ibis](https://pillarsofeternity.fandom.com/wiki/Ibis)
+* [Kuaru's Prize](https://pillarsofeternity.fandom.com/wiki/Kuaru%27s_Prize)
+* [Least Unstable Coil](https://pillarsofeternity.fandom.com/wiki/Least_Unstable_Coil)
+* [Mask of the Grotto Deep](https://pillarsofeternity.fandom.com/wiki/Mask_of_the_Grotto_Deep)
+* [Maura's Grasping Belt](https://pillarsofeternity.fandom.com/wiki/Maura%27s_Grasping_Belt)
+* [Mewnan's Broad Belt](https://pillarsofeternity.fandom.com/wiki/Mewnan%27s_Broad_Belt)
+* [Nemnok's Cloak](https://pillarsofeternity.fandom.com/wiki/Nemnok%27s_Cloak)
+* [Neriscyrlas' Hope](https://pillarsofeternity.fandom.com/wiki/Neriscyrlas%27_Hope)
+* [Onepahua's Strength](https://pillarsofeternity.fandom.com/wiki/Onepahua%27s_Strength)
+* [Orishia](https://pillarsofeternity.fandom.com/wiki/Orishia)
+* [Pathfinder's Boots](https://pillarsofeternity.fandom.com/wiki/Pathfinder%27s_Boots)
+* [Precognition](https://pillarsofeternity.fandom.com/wiki/Precognition)
+* [Ragged Cloak](https://pillarsofeternity.fandom.com/wiki/Ragged_Cloak)
+* [Rakhan Field Boots](https://pillarsofeternity.fandom.com/wiki/Rakhan_Field_Boots)
+* [Rekvu's Scorched Cloak](https://pillarsofeternity.fandom.com/wiki/Rekvu%27s_Scorched_Cloak)
+* [Ring of Clenched Muscle](https://pillarsofeternity.fandom.com/wiki/Ring_of_Clenched_Muscle)
+* [Ring of Greater Regeneration](https://pillarsofeternity.fandom.com/wiki/Ring_of_Greater_Regeneration)
+* [Ring of Regeneration](https://pillarsofeternity.fandom.com/wiki/Ring_of_Regeneration)
+* [Ring of the Marksman](https://pillarsofeternity.fandom.com/wiki/Ring_of_the_Marksman)
+* [Ring of the Solitary Wanderer](https://pillarsofeternity.fandom.com/wiki/Ring_of_the_Solitary_Wanderer)
+* [Ruata's Walking Cloak](https://pillarsofeternity.fandom.com/wiki/Ruata%27s_Walking_Cloak)
+* [Serpent Crown](https://pillarsofeternity.fandom.com/wiki/Serpent_Crown)
+* [Shroud of the Phantasm](https://pillarsofeternity.fandom.com/wiki/Shroud_of_the_Phantasm)
+* [Sisyfo's Stone](https://pillarsofeternity.fandom.com/wiki/Sisyfo%27s_Stone)
+* [Soul Void](https://pillarsofeternity.fandom.com/wiki/Soul_Void)
+* [Strand of Favor](https://pillarsofeternity.fandom.com/wiki/Strand_of_Favor)
+* [Survivor's Tusks](https://pillarsofeternity.fandom.com/wiki/Survivor%27s_Tusks)
+* [Tears of Saint Makawo](https://pillarsofeternity.fandom.com/wiki/Tears_of_Saint_Makawo)
+* [Thaos' Headdress](https://pillarsofeternity.fandom.com/wiki/Thaos%27_Headdress)
+* [The Giftbearer's Cloth](https://pillarsofeternity.fandom.com/wiki/The_Giftbearer%27s_Cloth)
+* [The Left Hand of the Obscured](https://pillarsofeternity.fandom.com/wiki/The_Left_Hand_of_the_Obscured)
+* [The Maker's Own Power](https://pillarsofeternity.fandom.com/wiki/The_Maker%27s_Own_Power)
+* [The Mask of the Weyc](https://pillarsofeternity.fandom.com/wiki/The_Mask_of_the_Weyc)
+* [The Maw of Ingimyrk](https://pillarsofeternity.fandom.com/wiki/The_Maw_of_Ingimyrk)
+* [The Mung Bean's Mouth Organ](https://pillarsofeternity.fandom.com/wiki/The_Mung_Bean%27s_Mouth_Organ)
+* [The Third Eye](https://pillarsofeternity.fandom.com/wiki/The_Third_Eye)
+* [Tooth of Toamowhai](https://pillarsofeternity.fandom.com/wiki/Tooth_of_Toamowhai)
+* [Upright Captain's Belt](https://pillarsofeternity.fandom.com/wiki/Upright_Captain%27s_Belt)
+* [Violet Redemption](https://pillarsofeternity.fandom.com/wiki/Violet_Redemption)
+* [Vithrack Silk Slippers](https://pillarsofeternity.fandom.com/wiki/Vithrack_Silk_Slippers)
+* [Wahaki Tua](https://pillarsofeternity.fandom.com/wiki/Wahaki_Tua)
+* [Weight of Revelation](https://pillarsofeternity.fandom.com/wiki/Weight_of_Revelation)
+* [Whispers from the Depths](https://pillarsofeternity.fandom.com/wiki/Whispers_from_the_Depths)
+* [Woedica's Strangling Grasp](https://pillarsofeternity.fandom.com/wiki/Woedica%27s_Strangling_Grasp)
 
 ### Shields
 
-- Akola's Apex Ward
-- Bronlar's Phalanx
-- Cadhu Scalth
-- Mundane Shell
-- Nerian's Ward
-- Shining Bulwark
-- The Best Defense
-- The Weyc's Oracular Focus
-- Wintertide Bulwark
+* [Akola's Apex Ward](https://pillarsofeternity.fandom.com/wiki/Akola%27s_Apex_Ward)
+* [Bronlar's Phalanx](https://pillarsofeternity.fandom.com/wiki/Bronlar%27s_Phalanx)
+* [Cadhu Scalth](https://pillarsofeternity.fandom.com/wiki/Cadhu_Scalth)
+* [Mundane Shell](https://pillarsofeternity.fandom.com/wiki/Mundane_Shell)
+* [Nerian's Ward](https://pillarsofeternity.fandom.com/wiki/Nerian%27s_Ward)
+* [Shining Bulwark](https://pillarsofeternity.fandom.com/wiki/Shining_Bulwark)
+* [The Best Defense](https://pillarsofeternity.fandom.com/wiki/The_Best_Defense)
+* [The Weyc's Oracular Focus](https://pillarsofeternity.fandom.com/wiki/The_Weyc%27s_Oracular_Focus)
+* [Wintertide Bulwark](https://pillarsofeternity.fandom.com/wiki/Wintertide_Bulwark)
 
 ### Weapons
 
-- A Whale of a Wand
-- Aamiina's Legacy
-- Acolyte's Frostbite
-- Aldris Blade of Captain Crow
-- Amaliorra
-- Amira's Wing
-- Animancer's Energy Blade
-- Aretezzo's Cane
-- Azure Blade
-- Ball and Chain
-- Beza's Toothed Blade
-- Blade of the Endless Paths
-- Blightheart
-- Burden
-- Chromoprismatic Quarterstaff
-- Current's Rush
-- Dire Talon
-- Distraho
-- Eccea's Arcane Blaster
-- Effort
-- Endre's Flog of Obedience
-- Engoliero do Espirs
-- Fire in the Hole
-- Fleetbreaker
-- Frostfall
-- Glacierbane
-- Grave Calling
-- Griffin's Blade
-- Hel Beckoning
-- Kahua Hozi
-- Kapana Taga
-- Karabörü
-- Keeper of the Flame
-- Keybreaker Scepter
-- Kitchen Stove
-- Lance of the Midwood Stag
-- Last Word
-- Lover's Embrace
-- Magistrate's Cudgel
-- Magran's Favor
-- Marux Amanth
-- Mechanical Marvel
-- Min's Fortune
-- Modwyr
-- Mohorā Tanga
-- Ngati's Tusk
-- Oathbreaker's End
-- Pukestabber
-- Resounding Call
-- Rod of the Deep Hunter
-- Rust's Poignard
-- Rännig's Wrath
-- Saint Omaku's Mercy
-- Sanguine Great Sword
-- Scordeo's Edge
-- Scourge Of Bezzello
-- Seeker's Fang
-- Shea's War Staff
-- Skullcrusher
-- Slayer's Claw
-- Stalker's Patience
-- Street Sweeper
-- Sungrazer
-- Tarn's Respite
-- The Twin Eels
-- The Weyc's Wand
-- The Willbreaker
-- Three Bells Through
-- Thundercrack Pistol
-- Veilpiercer
-- Vion-ceth
-- Voidwheel
-- Wahai Pōraga
-- Watcher's Blade
-- Whispers of Yenwood
-- Whispers of the Endless Paths
-- Wicked Beast
-- Windsong
-- Xefa's Empirical Explication
+* [A Whale of a Wand](https://pillarsofeternity.fandom.com/wiki/A_Whale_of_a_Wand)
+* [Aamiina's Legacy](https://pillarsofeternity.fandom.com/wiki/Aamiina%27s_Legacy)
+* [Acolyte's Frostbite](https://pillarsofeternity.fandom.com/wiki/Acolyte%27s_Frostbite)
+* [Aldris Blade of Captain Crow](https://pillarsofeternity.fandom.com/wiki/Aldris_Blade_of_Captain_Crow)
+* [Amaliorra](https://pillarsofeternity.fandom.com/wiki/Amaliorra)
+* [Amira's Wing](https://pillarsofeternity.fandom.com/wiki/Amira%27s_Wing)
+* [Animancer's Energy Blade](https://pillarsofeternity.fandom.com/wiki/Animancer%27s_Energy_Blade)
+* [Aretezzo's Cane](https://pillarsofeternity.fandom.com/wiki/Aretezzo%27s_Cane)
+* [Azure Blade](https://pillarsofeternity.fandom.com/wiki/Azure_Blade)
+* [Ball and Chain](https://pillarsofeternity.fandom.com/wiki/Ball_and_Chain)
+* [Beza's Toothed Blade](https://pillarsofeternity.fandom.com/wiki/Beza%27s_Toothed_Blade)
+* [Blade of the Endless Paths](https://pillarsofeternity.fandom.com/wiki/Blade_of_the_Endless_Paths_(Deadfire))
+* [Blightheart](https://pillarsofeternity.fandom.com/wiki/Blightheart)
+* [Burden](https://pillarsofeternity.fandom.com/wiki/Burden)
+* [Chromoprismatic Quarterstaff](https://pillarsofeternity.fandom.com/wiki/Chromoprismatic_Quarterstaff)
+* [Current's Rush](https://pillarsofeternity.fandom.com/wiki/Current%27s_Rush)
+* [Dire Talon](https://pillarsofeternity.fandom.com/wiki/Dire_Talon)
+* [Distraho](https://pillarsofeternity.fandom.com/wiki/Distraho)
+* [Eccea's Arcane Blaster](https://pillarsofeternity.fandom.com/wiki/Eccea%27s_Arcane_Blaster)
+* [Effort](https://pillarsofeternity.fandom.com/wiki/Voidwheel)
+* [Endre's Flog of Obedience](https://pillarsofeternity.fandom.com/wiki/Endre%27s_Flog_of_Obedience)
+* [Engoliero do Espirs](https://pillarsofeternity.fandom.com/wiki/Engoliero_do_Espirs)
+* [Fire in the Hole](https://pillarsofeternity.fandom.com/wiki/Fire_in_the_Hole)
+* [Fleetbreaker](https://pillarsofeternity.fandom.com/wiki/Fleetbreaker)
+* [Frostfall](https://pillarsofeternity.fandom.com/wiki/Frostfall)
+* [Glacierbane](https://pillarsofeternity.fandom.com/wiki/Glacierbane)
+* [Grave Calling](https://pillarsofeternity.fandom.com/wiki/Grave_Calling)
+* [Griffin's Blade](https://pillarsofeternity.fandom.com/wiki/Griffin%27s_Blade)
+* [Hel Beckoning](https://pillarsofeternity.fandom.com/wiki/Hel_Beckoning)
+* [Kahua Hozi](https://pillarsofeternity.fandom.com/wiki/Kahua_Hozi)
+* [Kapana Taga](https://pillarsofeternity.fandom.com/wiki/Kapana_Taga)
+* [Karabörü](https://pillarsofeternity.fandom.com/wiki/Karab%C3%B6r%C3%BC)
+* [Keeper of the Flame](https://pillarsofeternity.fandom.com/wiki/Keeper_of_the_Flame)
+* [Keybreaker Scepter](https://pillarsofeternity.fandom.com/wiki/Keybreaker_Scepter)
+* [Kitchen Stove](https://pillarsofeternity.fandom.com/wiki/Kitchen_Stove)
+* [Lance of the Midwood Stag](https://pillarsofeternity.fandom.com/wiki/Lance_of_the_Midwood_Stag)
+* [Last Word](https://pillarsofeternity.fandom.com/wiki/Last_Word)
+* [Magistrate's Cudgel](https://pillarsofeternity.fandom.com/wiki/Magistrate%27s_Cudgel)
+* [Magran's Favor](https://pillarsofeternity.fandom.com/wiki/Magran%27s_Favor)
+* [Marux Amanth](https://pillarsofeternity.fandom.com/wiki/Marux_Amanth)
+* [Mechanical Marvel](https://pillarsofeternity.fandom.com/wiki/Mechanical_Marvel)
+* [Min's Fortune](https://pillarsofeternity.fandom.com/wiki/Min%27s_Fortune)
+* [Modwyr](https://pillarsofeternity.fandom.com/wiki/Modwyr)
+* [Mohorā Tanga](https://pillarsofeternity.fandom.com/wiki/Mohor%C4%81_Tanga)
+* [Ngati's Tusk](https://pillarsofeternity.fandom.com/wiki/Ngati%27s_Tusk)
+* [Oathbreaker's End](https://pillarsofeternity.fandom.com/wiki/Oathbreaker%27s_End)
+* [Pukestabber](https://pillarsofeternity.fandom.com/wiki/Pukestabber)
+* [Resounding Call](https://pillarsofeternity.fandom.com/wiki/Resounding_Call)
+* [Rod of the Deep Hunter](https://pillarsofeternity.fandom.com/wiki/Rod_of_the_Deep_Hunter)
+* [Rust's Poignard](https://pillarsofeternity.fandom.com/wiki/Rust%27s_Poignard)
+* [Rännig's Wrath](https://pillarsofeternity.fandom.com/wiki/R%C3%A4nnig%27s_Wrath)
+* [Saint Omaku's Mercy](https://pillarsofeternity.fandom.com/wiki/Saint_Omaku%27s_Mercy)
+* [Sanguine Great Sword](https://pillarsofeternity.fandom.com/wiki/Sanguine_Great_Sword)
+* [Scordeo's Edge](https://pillarsofeternity.fandom.com/wiki/Scordeo%27s_Edge)
+* [Scourge Of Bezzello](https://pillarsofeternity.fandom.com/wiki/Scourge_of_Bezzello)
+* [Seeker's Fang](https://pillarsofeternity.fandom.com/wiki/Seeker%27s_Fang)
+* [Shea's War Staff](https://pillarsofeternity.fandom.com/wiki/Shea%27s_War_Staff)
+* [Skullcrusher](https://pillarsofeternity.fandom.com/wiki/Skullcrusher)
+* [Slayer's Claw](https://pillarsofeternity.fandom.com/wiki/Slayer%27s_Claw)
+* [Stalker's Patience](https://pillarsofeternity.fandom.com/wiki/Stalker%27s_Patience)
+* [Street Sweeper](https://pillarsofeternity.fandom.com/wiki/Street_Sweeper)
+* [Sungrazer](https://pillarsofeternity.fandom.com/wiki/Sungrazer)
+* [Tarn's Respite](https://pillarsofeternity.fandom.com/wiki/Tarn%27s_Respite)
+* [The Twin Eels](https://pillarsofeternity.fandom.com/wiki/The_Twin_Eels)
+* [The Weyc's Wand](https://pillarsofeternity.fandom.com/wiki/The_Weyc%27s_Wand)
+* [The Willbreaker](https://pillarsofeternity.fandom.com/wiki/The_Willbreaker)
+* [Three Bells Through](https://pillarsofeternity.fandom.com/wiki/Three_Bells_Through)
+* [Thundercrack Pistol](https://pillarsofeternity.fandom.com/wiki/Thundercrack_Pistol)
+* [Veilpiercer](https://pillarsofeternity.fandom.com/wiki/Veilpiercer)
+* [Vion-ceth](https://pillarsofeternity.fandom.com/wiki/Vion-ceth)
+* [Voidwheel](https://pillarsofeternity.fandom.com/wiki/Voidwheel)
+* [Wahai Pōraga](https://pillarsofeternity.fandom.com/wiki/Wahai_P%C5%8Draga)
+* [Watcher's Blade](https://pillarsofeternity.fandom.com/wiki/Watcher%27s_Blade)
+* [Whispers of Yenwood](https://pillarsofeternity.fandom.com/wiki/Whispers_of_Yenwood_(Deadfire))
+* [Whispers of the Endless Paths](https://pillarsofeternity.fandom.com/wiki/Whispers_of_the_Endless_Paths)
+* [Wicked Beast](https://pillarsofeternity.fandom.com/wiki/Wicked_Beast)
+* [Windsong](https://pillarsofeternity.fandom.com/wiki/Windsong)
+* [Xefa's Empirical Explication](https://pillarsofeternity.fandom.com/wiki/Xefa%27s_Empirical_Explication)
 
 ## Surely you've a scrap to spare?
 

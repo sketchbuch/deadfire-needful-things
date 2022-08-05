@@ -3,7 +3,7 @@
   "Description": {
     "en": "Adds the unique/soulbound items to various Neketakan merchants."
   },
-  "ModVersion": "1.0.2",
+  "ModVersion": "1.1",
   "supportedGameVersion": {
     "Min": "5.0.0",
     "Max": "5.9.9"
