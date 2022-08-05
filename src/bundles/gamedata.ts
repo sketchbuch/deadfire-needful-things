@@ -38,6 +38,7 @@ export type GameData = GameDataItem[]
 export interface GameDataItem {
   item?: Partial<GameItem>
   label: string
+  url: string
   uuid: string
 }
 

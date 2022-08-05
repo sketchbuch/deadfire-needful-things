@@ -5,7 +5,7 @@
   "version": "1.0.1",
   "author": {
     "name": "sketchbuch",
-    "url" : "https://github.com/sketchbuch/"
+    "url": "https://github.com/sketchbuch/"
   },
   "bugs": {
     "url": "https://github.com/sketchbuch/deadfire-needful-things/issues"
@@ -24,7 +24,7 @@
     "compile": "tsc -p tsconfig.json",
     "compile:watch": "tsc -w -p tsconfig.json",
     "dev": "cross-env NODE_ENV=development node build/src/main.js",
-    "export": "node build/fs/exportItems.js",
+    "export": "node build/src/fs/exportItems.js",
     "lint": "yarn lint:ts && yarn lint:prettier",
     "lint:prettier": "prettier --write --config ./.prettierrc.js './{src,static}/**/*.{ts,json}'",
     "lint:ts": "eslint ./src --ext .ts --fix",
@@ -33,7 +33,7 @@
     "production": "cross-env NODE_ENV=production node build/src/main.js",
     "static-copy": "shx cp -R ./static ./dist && shx mkdir -p ./dist/Needful\\ Things/design/gamedata",
     "test": "jest",
-    "validate": "node build/src/bundles/validate_uuids.js"
+    "validate": "node build/src/validation/validate.js"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
@@ -45,6 +45,8 @@
     "@types/node": "^17.0.10",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
+    "@userlike/babel-plugin-joke": "^2.1.2",
+    "@userlike/joke": "^2.1.2",
     "babel-jest": "^27.4.6",
     "cross-env": "^7.0.3",
     "eslint": "^8.7.0",

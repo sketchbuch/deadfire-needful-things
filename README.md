@@ -129,6 +129,7 @@ Weapons | Marihi (Periki's Overlook)
 - The Maw of Ingimyrk
 - The Mung Bean's Mouth Organ
 - The Third Eye
+- Tooth of Toamowhai
 - Upright Captain's Belt
 - Violet Redemption
 - Vithrack Silk Slippers

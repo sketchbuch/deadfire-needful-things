@@ -19,6 +19,8 @@ describe('getMerchantItems()', () => {
   test('Item properties can be over-ridden', () => {
     const result = getMerchantItems(mockData)
 
-    expect(result[1].LootListID).toBe(mockData[1].item.LootListID)
+    if (mockData[1].item) {
+      expect(result[1].LootListID).toBe(mockData[1].item.LootListID)
+    }
   })
 })

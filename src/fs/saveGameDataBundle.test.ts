@@ -23,7 +23,7 @@ describe('saveGameDataBundle()', () => {
 
     expect(spy).toHaveBeenCalledTimes(1)
     expect(spy).toHaveBeenCalledWith(
-      `${OUTPUT_DIR}${sep}Needful Things${sep}design${sep}gamedata${sep}needfullthings_${TYPE}.gamedatabundle`,
+      `${OUTPUT_DIR}${sep}Needful Things${sep}design${sep}gamedata${sep}needfullthings_${TYPE}.bundgamedata`,
       JSON.stringify(mockGameDataBundle)
     )
 
@@ -36,7 +36,7 @@ describe('saveGameDataBundle()', () => {
 
     expect(spy).toHaveBeenCalledTimes(1)
     expect(spy).toHaveBeenCalledWith(
-      `build${sep}needfullthings_${TYPE}.gamedatabundle`,
+      `build${sep}needfullthings_${TYPE}.bundgamedata`,
       JSON.stringify(mockGameDataBundle, null, 2)
     )
 
