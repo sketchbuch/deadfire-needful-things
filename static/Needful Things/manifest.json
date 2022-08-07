@@ -1,9 +1,12 @@
 {
   "Author": "Sketchbuch",
+  "ContentType": 0,
+  "DefaultVisibility": 2,
   "Description": {
     "en": "Adds the unique/soulbound items to various Neketakan merchants."
   },
   "ModVersion": "1.1",
+  "SteamItemID": 2731439526,
   "supportedGameVersion": {
     "Min": "5.0.0",
     "Max": "5.9.9"
