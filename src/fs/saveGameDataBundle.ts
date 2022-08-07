@@ -13,7 +13,7 @@ export const saveGameDataBundle = (
     ? path.join(outputDir, 'Needful Things', 'design', 'gamedata')
     : 'build'
   const fileContent = isProduction ? JSON.stringify(bundle) : JSON.stringify(bundle, null, 2)
-  const filePath = path.join(bundleOutputDir, `needfullthings_${type}.bundgamedata`)
+  const filePath = path.join(bundleOutputDir, `needfullthings_${type}.gamedatabundle`)
 
   fs.writeFileSync(filePath, fileContent)
 }
