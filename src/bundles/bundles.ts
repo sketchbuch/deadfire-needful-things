@@ -29,11 +29,11 @@ export const bundles: Bundles = [
   },
   {
     data: grimoires,
-    label: "Emaita (Periki's Overlook)",
-    merchant: 'Store_07_Animancers',
-    merchantUuid: 'e886c4c5-5eac-4917-9f8d-12bd6e6e11e7',
+    label: "The Dark Cupboard (Periki's Overlook)",
+    merchant: 'Store_05_AD_Emporium',
+    merchantUuid: '73622f72-063a-4e06-928f-3c4005745e2c',
     type: 'grimoires',
-    url: 'https://pillarsofeternity.fandom.com/wiki/Emaita',
+    url: 'https://pillarsofeternity.fandom.com/wiki/The_Dark_Cupboard',
   },
   {
     data: items,

@@ -19,7 +19,7 @@ The following items have been made available:
 Type        | Location
 ----------- | -----------------------------
 Armour      | Wanika (Queen's Berth)
-Grimoires   | Emaita (Periki's Overlook)
+Grimoires   | The Dark Cupboard (Periki's Overlook)
 Items       | Tiabo (Sacred Stair)
 Shields     | Orlan Peddler (Brass Citadel)
 Weapons     | Marihi (Periki's Overlook)
