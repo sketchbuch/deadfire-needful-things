@@ -29,11 +29,11 @@ export const bundles: Bundles = [
   },
   {
     data: grimoires,
-    label: "The Dark Cupboard (Periki's Overlook)",
-    merchant: 'Store_05_AD_Emporium',
-    merchantUuid: '73622f72-063a-4e06-928f-3c4005745e2c',
+    label: "Osa (Queen's Berth)",
+    merchant: 'Store_03_Fishmonger',
+    merchantUuid: 'd52c9bd1-e55c-469f-b7d5-9f3a939b9afb',
     type: 'grimoires',
-    url: 'https://pillarsofeternity.fandom.com/wiki/The_Dark_Cupboard',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Osa',
   },
   {
     data: items,

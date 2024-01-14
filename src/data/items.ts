@@ -182,6 +182,11 @@ const boots: GameData = [
     url: 'https://pillarsofeternity.fandom.com/wiki/Vithrack_Silk_Slippers',
     uuid: '8e7077d1-c8f4-4b1e-90ab-ef384550396d',
   },
+  {
+    label: 'Boots of the White',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Boots_of_the_White',
+    uuid: '26a851ef-fe9b-40f8-b729-9c393b1752b2',
+  },
 ]
 
 const cloaks: GameData = [
@@ -191,9 +196,19 @@ const cloaks: GameData = [
     uuid: '7e3d734b-ce0c-4f79-81f1-2e0989173330',
   },
   {
+    label: "Berath's Black Bell",
+    url: 'https://pillarsofeternity.fandom.com/wiki/Berath%27s_Black_Bell',
+    uuid: '20937897-b407-48b2-8c8d-89a5d9f1f021',
+  },
+  {
     label: "Champion's Cape",
     url: 'https://pillarsofeternity.fandom.com/wiki/Champion%27s_Cape',
     uuid: 'd89a3a35-94b3-4243-a4a1-2b9f6381836b',
+  },
+  {
+    label: 'Cloak of the Theocrat',
+    url: 'https://pillarsofeternity.fandom.com/wiki/Cloak_of_the_Theocrat_(Deadfire)',
+    uuid: '11038780-34f1-48d9-9527-2b5d1f947f7b',
   },
   {
     label: 'Frostfur Mantle',
@@ -204,6 +219,11 @@ const cloaks: GameData = [
     label: "Hakori's Refuge",
     url: 'https://pillarsofeternity.fandom.com/wiki/Frostfur_Mantle',
     uuid: 'a261b2ea-67d3-4a7e-8aec-6c74749dd378',
+  },
+  {
+    label: "Hylea's Bounty",
+    url: 'https://pillarsofeternity.fandom.com/wiki/Hylea%27s_Bounty',
+    uuid: 'ae6182ee-5562-4648-bc5b-ca4fb4d1262e',
   },
   {
     label: "Nemnok's Cloak",

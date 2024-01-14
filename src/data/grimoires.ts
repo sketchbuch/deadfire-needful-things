@@ -116,4 +116,9 @@ export const grimoires: GameData = [
     url: 'https://pillarsofeternity.fandom.com/wiki/Weathermage_Grimoire',
     uuid: '205a79cf-0f66-4f6c-8dca-6911d4eee07a',
   },
+  {
+    label: "Ninagauth's Teachings",
+    url: "https://pillarsofeternity.fandom.com/wiki/Ninagauth's_Teachings",
+    uuid: 'aad47822-a1ec-4a02-bca0-c4c6c5c5d4bf',
+  },
 ]

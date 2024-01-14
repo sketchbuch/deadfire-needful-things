@@ -12,6 +12,7 @@ const smallShields: GameData = [
     uuid: 'a7c3fd20-97b2-4a98-8c2f-21fa08cbedfd',
   },
 ]
+
 const mediumShields: GameData = [
   {
     label: 'Mundane Shell',
